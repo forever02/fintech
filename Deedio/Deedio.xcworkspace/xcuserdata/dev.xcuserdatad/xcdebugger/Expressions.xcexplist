@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ConfirmPaymentViewController paymentAuthorizationViewController:didAuthorizePayment:completion:]:ConfirmPaymentViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PaymentInfoViewController formatValue:]:PaymentInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_creditCardBuf">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DonateObject initWithDictionary:]:DonateObject.m">
+      </ContextState>
+      <ContextState
+         contextName = "__54-[ConfirmPaymentViewController cardPaymentWithBackend]_block_invoke:ConfirmPaymentViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__87-[HttpApi SignUpWithFirstName:LastName:UserName:Email:Mobile:Passwork:Complete:Failed:]_block_invoke.45:HttpApi.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController LoginClick:]:LoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "spinner.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HttpApi UpdateWithFirstName:LastName:UserName:Email:Mobile:OldPasswork:NewPassword:Complete:Failed:]:HttpApi.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HttpApi PayWithCard:DonateID:Complete:Failed:]:HttpApi.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "amount">
+            </PersistentString>
+            <PersistentString
+               value = "userid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController tableView:didSelectRowAtIndexPath:]:SearchViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_resultrray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PaymentInfoViewController initViews1]:PaymentInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[MyGlobalData sharedData].carnNumber">
+            </PersistentString>
+            <PersistentString
+               value = "_creditCardBuf">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PaymentInfoViewController textField:shouldChangeCharactersInRange:replacementString:]:PaymentInfoViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.creditCardBuf">
+            </PersistentString>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+            <PersistentString
+               value = "_creditCardBuf">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__28-[ViewController signClick:]_block_invoke:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "pw">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__87-[HttpApi SignUpWithFirstName:LastName:UserName:Email:Mobile:Passwork:Complete:Failed:]_block_invoke:HttpApi.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ConfirmPaymentViewController payPalPaymentViewController:didCompletePayment:]:ConfirmPaymentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "donatePrice">
+            </PersistentString>
+            <PersistentString
+               value = "self.resultText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[SearchViewController searchClicked:]_block_invoke:SearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchViewController getResponseData:]:SearchViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ConfirmPaymentViewController backPaymentClicked]:ConfirmPaymentViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HttpApi GetDonatesWithString:Complete:Failed:]:HttpApi.m">
+      </ContextState>
+      <ContextState
+         contextName = "__54-[HttpApi LoginWithUserName:Password:Complete:Failed:]_block_invoke:HttpApi.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ConfirmPaymentViewController payPaypal_clicked]:ConfirmPaymentViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__87-[HttpApi SignUpWithFirstName:LastName:UserName:Email:Mobile:Passwork:Complete:Failed:]_block_invoke.51:HttpApi.m">
+      </ContextState>
+      <ContextState
+         contextName = "__34-[LoginViewController LoginClick:]_block_invoke:LoginViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "status">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ConfirmPaymentViewController sendCompletedPaymentToServer:]:ConfirmPaymentViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "completedPayment.confirmation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

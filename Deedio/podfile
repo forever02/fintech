@@ -1,0 +1,8 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+target :Deedio do
+pod "AFNetworking", "~> 2.0"
+pod 'authorizenet-sdk'
+end
+

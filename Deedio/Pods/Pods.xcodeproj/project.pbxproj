@@ -1,0 +1,1426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		015C1776E1DB8D5BB48794ADB1FF0B69 /* SwiperDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F0BCB53A6719E272F0A44F541275A5 /* SwiperDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0236F200232A77982A666B8AA86D47ED /* NSArray+PerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 712CA8256B0C292510ACCE01CCBB594E /* NSArray+PerformSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E583002B706BE1743B8F8942AF4F56 /* OrderExType.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA19714602301E3D559718521506F2E /* OrderExType.m */; };
+		03D2AA98FFA1C13FEFD798F078CE016C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B7F6C029BD763A75244195F484AF4 /* Foundation.framework */; };
+		060E4F4A2E81C2B5E6D98C43E5EE54F1 /* MerchantAuthenticationType.m in Sources */ = {isa = PBXBuildFile; fileRef = D598D29D1D993B71304893A1CB3C4BEC /* MerchantAuthenticationType.m */; };
+		06F7F499C89D4C81BB179C36AB2B897C /* OrderType.h in Headers */ = {isa = PBXBuildFile; fileRef = F88D2A5E7D7832338CADB8E8A85F73D8 /* OrderType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076F362B4F8F636C603EA2C622A68F7B /* SplitTenderPayment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2EC1E5B43582EBE80511E0EC46E87 /* SplitTenderPayment.m */; };
+		087791C4F6BBBEE585C81669C29E1CEE /* NameAndAddressType.h in Headers */ = {isa = PBXBuildFile; fileRef = 293599D41F44986259CB3831A92C9B96 /* NameAndAddressType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08AC990EE62CBADD4AADE4B9F5BFC310 /* GetTransactionListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2D3840ADEE21D1488C226303B3965 /* GetTransactionListRequest.m */; };
+		09F34D1F2959C5B7934577150631873C /* BatchDetailsType.m in Sources */ = {isa = PBXBuildFile; fileRef = FF433864BB6A38C3A77E1F1581151752 /* BatchDetailsType.m */; };
+		0A924D0BEE13BF0B07AEED64AB72FF0E /* GetUnsettledTransactionListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F50EF88481B3973B32D1F0A0A6E88E82 /* GetUnsettledTransactionListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B53B146ABE6183CBE55C527B1030224 /* UIToolbar+BackgroundImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E333AE5D5CBF7A10EA06FF71116485B8 /* UIToolbar+BackgroundImage.m */; };
+		0B7C3F3407E69B7ED4099CC0B37A05F3 /* MobileDeviceRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEE740FB230180E2780B646C4E302BA /* MobileDeviceRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C9665120BB0C6F604FE10EF1FA61CE3 /* GetSettledBatchListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 06DA9BABB55ECEFD567E565DCAFC28F6 /* GetSettledBatchListResponse.m */; };
+		0CBDF108F24C23B1904A978F6AD0A6EB /* TestAccountCaptchaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 20ADA6CF909861365162C04A87CAFC92 /* TestAccountCaptchaResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAF0ADFBD585EAE2B185C2DDCA9E311 /* TransactionDetailsType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0736FD453A7182C7A044FB245BF86E0F /* TransactionDetailsType.m */; };
+		11145E051BE5E9ADB4B137662014DAF9 /* GetTransactionListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AF581B3DC074F529E48F8F1D1CDCCFD /* GetTransactionListResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		116D3E9DA2333AF2766656399AC8E19F /* ANetSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF149A7428D6B8904B36203014546A2 /* ANetSolution.m */; };
+		15EF9C20753F37EDFAD11D1542B5CA17 /* TransRetailInfoType.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7E5A6BD4847DC99ACF3B2D533A21C /* TransRetailInfoType.m */; };
+		16C19C4FD3C1EFF1FA8B1F4A3488817B /* NSString+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = D60C54EDF4DBA9FE49AACE14F1DD5922 /* NSString+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FB9272674CC95AC65C0FECA05E1A24 /* ANetSolution.h in Headers */ = {isa = PBXBuildFile; fileRef = F41771807862A5FFF59FACC04D7D0F0C /* ANetSolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5A091831F8ECBF78D95B48E4BD69D2 /* PaymentMaskedType.h in Headers */ = {isa = PBXBuildFile; fileRef = CC8598056D5673AC3C67451C4138F21E /* PaymentMaskedType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBC965E7B4AB22A84A9D53578E12BC0 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 9605C8913331BFF468352F0159B95312 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3981B54AAE154981B930F4CD60B955 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C3AD1CF8B1646A67026597DC2C5A8A /* MobileCoreServices.framework */; };
+		1F8F4F04409E06B69E863B6CCC415C99 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E90741E7479C661427CF36119ECDBC /* GDataXMLNode.m */; };
+		211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 24E009E90ED760DBC5948C1F2CFDC5A6 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233ABD5F50689F3702A1BF866FF717B3 /* GetBatchStatisticsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B26FB65FA24CBE28534766AFB27987 /* GetBatchStatisticsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237F24A9011113173B9C6285219D0F6F /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = AD978593FFF567C3D1D19B62015BF7B4 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2431B3455EC7B80D6304E7D28DE64018 /* NSString+stringForRFC3339DateTimeString.m in Sources */ = {isa = PBXBuildFile; fileRef = D11E45EF5666A50B7E34DF13CE37A3EF /* NSString+stringForRFC3339DateTimeString.m */; };
+		24EE2886114F1B70BED2A3183165C3CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B7F6C029BD763A75244195F484AF4 /* Foundation.framework */; };
+		25A81C941CCE0E7F89D88DDAD9BBEDEE /* OrderExType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA7151514378E264B1E70DE92B3DAF1 /* OrderExType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		269198010D6348527CF5ED2B659ED9CA /* NSString+HMAC_MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B108A1EA44287DAFCFAB897AA84BD6A /* NSString+HMAC_MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A6B253F7B90962FB63D33B0B43804DF /* GetBatchStatisticsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F64EAD8D5B2E676C397D20C95B1E2191 /* GetBatchStatisticsRequest.m */; };
+		2B4F73370528A83C800265933D14A20C /* CreditCardMaskedType.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DF6D6748277749E22A179FF647143D /* CreditCardMaskedType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B62D9F7EC5C9DFE71F8589D50A396D /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B8ABAC9702297957E236A9035C3EC8A /* PaymentMaskedType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2D98BC8DCF1C6E2BEF1F320F6B0E31 /* PaymentMaskedType.m */; };
+		2C8F5EBCF240964B1CFCE4C74507BF25 /* TestAccountCaptchaResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CB19BA7D55F31CF45EA584E7F2711C /* TestAccountCaptchaResponse.m */; };
+		2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6538B95A930E6E76507037AAB61A5 /* AFHTTPSessionManager.m */; };
+		2D0F20CEBE6C73A66216071CC67E0692 /* GetTransactionListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3E29410E7F4B27A827DFF902A87108 /* GetTransactionListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D7CCF0FDA18A339B423ACC6F2731FC8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5084FCCA0E443E3E945A040B9D52B1F /* CoreGraphics.framework */; };
+		2E0CB73A3A21F163F2DFAE7B0B09567E /* GetBatchStatisticsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A835D2A408E76CA982CA44A474CE541B /* GetBatchStatisticsResponse.m */; };
+		2E93F9320F6479569185A893EB72936B /* Pods-Deedio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B02F6631287FF975868C8DBE8546A90 /* Pods-Deedio-dummy.m */; };
+		2F422C3863C59C39BA90BE929C1D0424 /* CreateTransactionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A372429205EBEFB001DD0710D96CE3 /* CreateTransactionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 319FC4A56052D84D1C1A58DA14B61B9A /* AFURLRequestSerialization.m */; };
+		32725B15A4DB08D404DF178FFC7B5769 /* AuthNet.m in Sources */ = {isa = PBXBuildFile; fileRef = C85011B155247418CF8C50D4EEA71DAB /* AuthNet.m */; };
+		32CF51C755F65829BF55D5F57B4263D4 /* ANetApiResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB3C7FB407B2DA3BB8913B01FEBA73F /* ANetApiResponse.m */; };
+		3368BD6053F92255F5C6B5B46EB606FA /* BatchDetailsType.h in Headers */ = {isa = PBXBuildFile; fileRef = 38AFDC593AF78AE31352155BC2937814 /* BatchDetailsType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D82D7D07949AC99E5CACFFDE799B07 /* NSString+stringWithXMLTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 123DB80596AB73911A4E80D6D8BB1853 /* NSString+stringWithXMLTag.m */; };
+		353065B69EEC688229BEB9716A3A46E2 /* LineItemType.m in Sources */ = {isa = PBXBuildFile; fileRef = 477D35D4FF2AE4FFC1EFBB3D00FFC7B4 /* LineItemType.m */; };
+		382DDC007F298A0D4EA7A4E7298432A4 /* GetUnsettledTransactionListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A40184ECA13888ACAEAE188CC81A1A /* GetUnsettledTransactionListResponse.m */; };
+		384058D59DE129D8A4F5E23094072F6D /* GetSettledBatchListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FE5359A1B83546F65F7D787D83EBC /* GetSettledBatchListRequest.m */; };
+		38501051911AE3904B079464C4452445 /* MerchantContactType.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A05D4EFB63C50C518E4927A7A4B552 /* MerchantContactType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		386D600B774FEACB08E9BBCC5AF37FD9 /* SplitTenderPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = 3391E5A83CB2E67D01547F4BFC28990E /* SplitTenderPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D035279E3BBFF0882F5C79BB243757C0 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B156AECAC13DC5929BBE3E158080724 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C79BC7D39B86F5960DF2F4C17B81F8F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CD4B8824397AF0D3C86B9258C6CA32 /* Security.framework */; };
+		3D24A31E3E7B72F5EC66EA4B18F3AE54 /* ExtendedAmountType.h in Headers */ = {isa = PBXBuildFile; fileRef = 741A1C692AFE5ECB990F10A5679F147E /* ExtendedAmountType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DAA35F89FD808942BC49AD8DFB2B819 /* BankAccountType.h in Headers */ = {isa = PBXBuildFile; fileRef = A61C69D48E71BCD67B70096D910BA61B /* BankAccountType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DB6867308F8FD569F1DF110B345A032 /* MobileDeviceType.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E1E5EDE1CBFB3E00D192316A25E859 /* MobileDeviceType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F8112D411679A8739F3FC9C9298C425 /* PermissionType.h in Headers */ = {isa = PBXBuildFile; fileRef = E77BED4BBB3C6107E597AA72CB5C30B5 /* PermissionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		417B9D05421324474228A20AD5B10941 /* NSString+dataFromFilename.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB5738CF34F8608EA2FB4DD301B1EA8 /* NSString+dataFromFilename.m */; };
+		430EFCE7AE97879E8818D8285F36A50E /* SwiperDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F998FD450879F0508E4C82F7C4465FA /* SwiperDataType.m */; };
+		4382B16015004696047AA1227FD4A4C5 /* AuthNetMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1868565B3AABF26249EE7DA3E3E182BE /* AuthNetMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46235378CDBECF1E9494B8A2C03C6C6D /* LogoutResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 12660CCC283F25ACC5691F9D7914B335 /* LogoutResponse.m */; };
+		472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 054097CD4484D3631594FCE75F8A669A /* AFHTTPRequestOperationManager.m */; };
+		48A4D46B3EB65795E79E8A2C3FA08366 /* FDSFilterType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E2CD4457A9978819E9EDCB36D47F839 /* FDSFilterType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EA95ACF0788994A3BDFAA298EB651E /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A34977F90BF38EDA413958ADEA9BC51 /* MobileDeviceType.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FDD3C201850C65CA53F752E399CE8C /* MobileDeviceType.m */; };
+		4B3466AB88254715E21BB27FCA5BD73B /* NSString+stringValueOfXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = E98003C15D9D94E57907C3EA625EA4EE /* NSString+stringValueOfXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFD468A6312E994221C5529429545CC /* LineItemType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF0EB38D6BCFAE62A1695ECE50DE3D6 /* LineItemType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5075232A0F10CD2B358F80D70DBDC5AD /* GetTransactionDetailsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F5AAF5131457524854B76029A6D77B72 /* GetTransactionDetailsResponse.m */; };
+		50E7DB2C612A201BEA010A358DFD820E /* ANetApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EE647AA6833EDD0CAE4B98159C1712 /* ANetApiRequest.m */; };
+		5195373C5CA98A998B0EFDDC52BE6E0E /* FingerPrintObjectType.h in Headers */ = {isa = PBXBuildFile; fileRef = 07697B3A02F7B7B4EB14119F53FF435F /* FingerPrintObjectType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519F08FE9B5936FAE160DC4430517569 /* BankAccountMaskedType.h in Headers */ = {isa = PBXBuildFile; fileRef = 414E1013710CEDCA628D3562CBED9BA3 /* BankAccountMaskedType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569B03A68F92D1A42CEFF164951E23FF /* AuthNetMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF69796EFC5A34A673D39D9A10FCEB0 /* AuthNetMessage.m */; };
+		574BE11D7D84A51EFDFD037078000B88 /* NSString+stringWithXMLTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2070C5397A36800BD05A1A2E8170AE7D /* NSString+stringWithXMLTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B1E63B258561A423B1D923707C8906 /* GetSettledBatchListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D84F60667C802C73219F6F6F3F17D78 /* GetSettledBatchListResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A33DED41D262A20540924185CF9E9C4 /* LogoutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 39100DC25232A740EC5F25E571F54510 /* LogoutRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AC5F0CE184B9E092D04C05F2051939F /* UserField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F9C1D35D24DB040A7734E6D3A8F9C /* UserField.m */; };
+		5C1FB46FC67B40AB692A1300D9FB8B3F /* OrderType.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C919F1008D5FD600AED8844BC4961B /* OrderType.m */; };
+		5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E82A4DC2AAF80A801A5741D86042E9 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1DAEBC1DADED2291D7C71E15DA9FC5 /* SendCustomerTransactionReceiptRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE5B85CECD64A9EEB02474D096332FC /* SendCustomerTransactionReceiptRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFA5E635D5927F7BE3E421771C8391D /* SettingType.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E5D90EC753ECF3EFB57898734271AF /* SettingType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F33DDBFED822B2ED56C8C9CE0FDD22E /* LogoutResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D08EE0C4256479FB766F33902C065477 /* LogoutResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F8A412F0F2B98B5996D0FEE91EAFF4D /* TransactionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E621D2179B698BB494E00CA73D3E7F52 /* TransactionResponse.m */; };
+		5FD8D9A8CB9F6EC1D57DF5AC34EF9987 /* CreateTransactionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D5152EBB9AE8ECACCAA5DAF57EB2CFD /* CreateTransactionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606D6289DE67ECA15348F904C2309D6F /* TestAccountCaptchaRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB73601B3EA58E539044AEB5772C5D8 /* TestAccountCaptchaRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6118B9A87E54BBB5DF9A36C05E329ADA /* CustomerAddressType.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EC181BB8C587D38187EEE51DFEEFEA /* CustomerAddressType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		625366332D00C1ECF948A3B236F1F63C /* FingerPrintObjectType.m in Sources */ = {isa = PBXBuildFile; fileRef = 63931BA7C21D1833FB262D0E848033BB /* FingerPrintObjectType.m */; };
+		6A23AA234C58EA03C9271E1D7C5476EE /* GetBatchStatisticsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3FB9F0309C564D147C18B3569FDD0B /* GetBatchStatisticsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE53AFF6A5E851B552D582F99162D0F /* MobileDeviceRegistrationResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2569CF7B3D196EBAABB69455702DB94 /* MobileDeviceRegistrationResponse.m */; };
+		6B888A054D2B5901585E64918130471A /* SendCustomerTransactionReceiptResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EF39AF2FB36931A56E298F25188605 /* SendCustomerTransactionReceiptResponse.m */; };
+		6C97610845ED99B18CF9171922A9C58E /* GetTransactionDetailsRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE8F90225F3FF490188C8CC7B8A6A71 /* GetTransactionDetailsRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FCF46B032C8B53D6BE31BC4F17C3FB /* AFURLSessionManager.m */; };
+		6D60B138402AA586814198F6765C1AAB /* AuthNetResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D889B7443BC65A701F9A5048FAE798D8 /* AuthNetResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F8CB2ACC2038C7A4A03867E9741A865 /* OpaqueDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 608AB1ECE8FDE84E74ECCF9D2336734F /* OpaqueDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F8F73422A0275ABFA6BE1607B076CCA /* SettingType.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DF6A4E8F66D97F95F4560FD542ADE8 /* SettingType.m */; };
+		707CE52DEC86DFAA7840E55C311D405E /* PaymentType.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB75515D2160DD13B1CBD2FA48CED3 /* PaymentType.m */; };
+		72CF207CBD503FB1CFD81CDC7BF50A21 /* TestAccountRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6222293D790AD1DF8512466F3D6AFB5B /* TestAccountRegistrationRequest.m */; };
+		73E4D3079E25A3BEECE2FC4BD8E1307E /* NSString+HMAC_MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = E28294E6ED19CF1D5AFECCE540DEDB65 /* NSString+HMAC_MD5.m */; };
+		75BBBC0012A95C272DE7A7628B23D7A0 /* PaymentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 10B0A842048990AC23DEA5BF7E9D3990 /* PaymentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778E2769264EB921DE1354C4C8D492DE /* TestAccountRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ECE9EDEE8B6411EF20BE4CBEE0AA41 /* TestAccountRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A38F36E43E3D2FD5430FFEEBEDC85F2E /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7856B91F55A8322B373D1E240D46868F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB6770DC8C62E0904510B494A1CEEDD /* SystemConfiguration.framework */; };
+		7E8DE6A4A4669441FD20A52330FE4680 /* CCAuthenticationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF1D28132D4019ADC1CB5FEF9E21A5C /* CCAuthenticationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E96AD2253E226ABCEF3C1CC193E0F76 /* GetUnsettledTransactionListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0995955CADBAFE4A649A6F9EE10DB485 /* GetUnsettledTransactionListRequest.m */; };
+		838E4AEED22FEF8075D8473072F287D6 /* GetTransactionDetailsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E89403E12D5D0C97518FDE3F61D5252 /* GetTransactionDetailsRequest.m */; };
+		845001E16F4274F4776B0226A42DF0A1 /* Error.m in Sources */ = {isa = PBXBuildFile; fileRef = 791B8D6A6E7A1636C3A70F7FB635EB4B /* Error.m */; };
+		854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E47735999707CABE004A6FE000E03 /* UIRefreshControl+AFNetworking.m */; };
+		85AEC0DB9A0763264259AD48B458AAC4 /* NSString+stringWithEscapedXMLValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 407FA9DB90E15AEC3FDDF9E577F2C5B1 /* NSString+stringWithEscapedXMLValue.m */; };
+		863058496D35AAE6201987D9762BC365 /* CreditCardType.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E67E7B1C8FFD5F34D97F8013B3E72E /* CreditCardType.m */; };
+		876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F00FBC0C201F61509255BBF31E21F256 /* AFHTTPRequestOperation.m */; };
+		87DAB3B84CA08C91C08525B0B3B32263 /* GetTransactionDetailsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = DB384D1B6A42F454FC97CD45FEBC224F /* GetTransactionDetailsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87E12A0924BDFFABECCFAF1E3B0D7F5B /* BankAccountMaskedType.m in Sources */ = {isa = PBXBuildFile; fileRef = 918CD74F5E466B9CC773CF85E2E5D908 /* BankAccountMaskedType.m */; };
+		8B777CF46102661EEF89C763FC43C87D /* AuthNetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 089A8B28CF90D16E83C5EF6BA34A118A /* AuthNetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D5C7C529CBCB4534DBE34F6C569260E /* NSArray+PerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 64EB1E980EBEEC78D414117744A3C0F6 /* NSArray+PerformSelector.m */; };
+		8E10F7EC26E32E405A50FC9A86A72692 /* GetSettledBatchListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A671AC52BDE43AB8D64CF649E31DEF /* GetSettledBatchListRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EB32C5A7B98BC06B7F53B84193F9EE3 /* MobileDeviceLoginResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D523EF3B4CA1C0838F7EA4D30A8ED318 /* MobileDeviceLoginResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EC72B6CBCE2DD01ACFCD160AB1A2FD /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C21E4A66A1963A436F2BF3A429354E /* NSString+stringValueOfXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 19002E722A116DCBE30A20EABBDE9773 /* NSString+stringValueOfXMLElement.m */; };
+		9125837F997C45CBAC3288EE16946424 /* PermissionType.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB431720A1FE7AEDB8E6AA8CD648DA3 /* PermissionType.m */; };
+		9173D75939E385626C46F0DA74FEF9D0 /* TransactionResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C75BAF8E985849D9572D789C32BA75 /* TransactionResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9535711889332E3419924F69FC13EE90 /* UIToolbar+BackgroundImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D179C04E25F759C9AE3E353E428CAA07 /* UIToolbar+BackgroundImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97071D7249767EB082D2F9A53B8518B4 /* AuthNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D35A0EF2879CA7F9FEF52396917A2D0 /* AuthNet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B2EDD1345A674B46E8641CFF2A68D9 /* UIButton+AFNetworking.m */; };
+		99F9F7BFBDBCF6AFA57E5E83726A9E46 /* Messages.h in Headers */ = {isa = PBXBuildFile; fileRef = 9458BAF54950875B67ADC9FDD2C3E82E /* Messages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B5B32B013C4D9250ECD04EC8205196 /* UIWebView+AFNetworking.m */; };
+		9AD633451229C3C5486DF594DDFB5E88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0D1558A85D577C70A5380913D73285 /* XCTest.framework */; };
+		9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5115A22EF002839EF062ACAAB3F7B6 /* UIAlertView+AFNetworking.m */; };
+		9EEC14343183D029D88DA8CBCB9B330B /* MobileDeviceLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAA466A2CE5175677850E397EB7DDAC /* MobileDeviceLoginResponse.m */; };
+		9F72A0056D03252102FB5A0437586690 /* MerchantContactType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6144277E5E834D2B547C187F4D04EDEB /* MerchantContactType.m */; };
+		9FDEB239BAB32CFD1197674C2A88489B /* ExtendedAmountType.m in Sources */ = {isa = PBXBuildFile; fileRef = C6625CE08D72A3D17BB365FF97DF06D4 /* ExtendedAmountType.m */; };
+		A0C5FAF356E758BB49DC87481C6754C3 /* MobileDeviceRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = BDBAE5A3794FF713BEA7DCA7EDA071DE /* MobileDeviceRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A183D11A518C916A21C462E2068674A0 /* TestAccountCaptchaResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 10DF9A7D6584905AF96D907BA7502706 /* TestAccountCaptchaResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1F0F8845E365C464436A59FDA367757 /* BankAccountType.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F196A3E209909C56690BC135A6AB9B /* BankAccountType.m */; };
+		A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F99FB817CC904256EBB39B20D85AB9D /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BE30EA0A7ED924BD1AF758BF136199 /* SendCustomerTransactionReceiptResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 299C8D290E54EB32DF24C1FBEAD48E7E /* SendCustomerTransactionReceiptResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D127B7F27B642C435FE93F2902CA40C /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6F1F7F09E564ED924DF7EE7B6F71A8E /* LogoutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C031A62424FAB8B35D72ED0673D841E /* LogoutRequest.m */; };
+		A7BD8C5C54BEA67902269AED78058A84 /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA8860DB62CC8DEBEF41197420A4B1 /* Messages.m */; };
+		A956FA9E7EFF59C648E7DC28D5AAA9B5 /* MobileDeviceLoginRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5230611A97885B0A72EFB83FE44734 /* MobileDeviceLoginRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA48A58F4731D38DD53FE5927C2EF3CC /* CustomerDataType.h in Headers */ = {isa = PBXBuildFile; fileRef = 59FAD4D88A5A91978E2C26DC737A7007 /* CustomerDataType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC7FF2716BC26465115BBB06051B8A3 /* CreateTransactionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1291C9D03CE4E271397AC1726625BD7D /* CreateTransactionRequest.m */; };
+		AC48114C8C443698F6A7FD48E7A21C66 /* NSString+dataFromFilename.h in Headers */ = {isa = PBXBuildFile; fileRef = E024411F427BB8CCCE49100031727F7F /* NSString+dataFromFilename.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACCDBA4D7343C7FF36B662EE26709CD0 /* OpaqueDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C65ABE6DC1F0E8349F805BBCDDA520 /* OpaqueDataType.m */; };
+		ACCFC3AC96D68A6B52F49D4CEAE6B2C6 /* MerchantAccountType.h in Headers */ = {isa = PBXBuildFile; fileRef = B162C2CF4BAA84D64B12800AAEDCBD68 /* MerchantAccountType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C5738332100917F3F50D23FE0715F85E /* UIActivityIndicatorView+AFNetworking.m */; };
+		AF3D3E8C00D06F64BA6987584371E946 /* CustomerAddressType.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F7F509F1BD5F552A6D3C712051DC70 /* CustomerAddressType.m */; };
+		AF3F3FDB7AEE9190C4B17FA5B0406EB6 /* MerchantAccountType.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BAA1B251BDCAF944B21BD62C579EC9 /* MerchantAccountType.m */; };
+		B0CC850C03E4ED7603754810BCB9D01A /* BatchStatisticType.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C4986B5448D2D9153CE887043BCA22 /* BatchStatisticType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1709165FE8B3AF993F710AD5B7EF067 /* AFSecurityPolicy.m */; };
+		B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DC41735B9EE8778A5CD54A062B8ED7 /* AFNetworkActivityIndicatorManager.m */; };
+		B2D78C444C90106572A6D95483781701 /* TransactionSummaryType.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B4F84D1C7984CAAF81F9BB178CBE85 /* TransactionSummaryType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A036803978AFD9746D259BB8F1EEC2 /* TransactionRequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = B97083750F8EA583C653FACF479269DA /* TransactionRequestType.m */; };
+		B4CF278FDAEC7187945DE7AFCA98C0C0 /* TestAccountRegistrationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D817A663E8F70F1BA85946D1E85B9722 /* TestAccountRegistrationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B64E5142AAC7777618020C1A91CE67F7 /* TransRetailInfoType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9D7383F0C217007AE8B7029E37D466 /* TransRetailInfoType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7ECE3752F457A4CAFC74524F50FA8B4 /* CreateTransactionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CAFB1D19092BDD20C9E12680F38453A /* CreateTransactionResponse.m */; };
+		B97FE072BADA354533336D209B84B94A /* TransactionSummaryType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3437555120CE31D2A8190074CF8B6793 /* TransactionSummaryType.m */; };
+		B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F955A137A56835C9D8BDD920AB3A70 /* AFNetworking-dummy.m */; };
+		B9E47A5F310F189B7424973405681475 /* GetUnsettledTransactionListResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DBA425E86C5DA213FC921CB79995A0 /* GetUnsettledTransactionListResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B3E040AB3D1C771CB1DAF24940BD69 /* AFNetworkReachabilityManager.m */; };
+		BD7793BA59CFEA3440A710BFF30675EA /* NSString+stringWithEscapedXMLValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAC63A47CD8197F3F2F4B40A3368B9C /* NSString+stringWithEscapedXMLValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 740776AD344C6411A86B8CDB16CE0BFD /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C743D413688138FCD080DC44A10FC0D7 /* ANetApiRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 89985DD43284450D3CF6C77694C8CEAC /* ANetApiRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 976F3750B61C31E9045AD2A8D01AF90B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7D8F717BDB9D5D64721D66A910C814B /* BatchStatisticType.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C30DCA181BE81E54BE569F67101D04 /* BatchStatisticType.m */; };
+		CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B31E1E02CD8332E185191E80E17382 /* AFURLResponseSerialization.m */; };
+		CB9ECE9547B598C0FBB913EE376506FB /* NSString+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB8990B82D66C9D96A52FF5AC1415F1 /* NSString+Hex.m */; };
+		CCD30768A34889014C719A8F83C3D8D0 /* UserField.h in Headers */ = {isa = PBXBuildFile; fileRef = C3ED76EE6E8B4B12FAEB79E52024B9E8 /* UserField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD35FCC438A8639A2C89228E857382A1 /* SendCustomerTransactionReceiptRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F1A598901FA0613D5E701F0E0D172 /* SendCustomerTransactionReceiptRequest.m */; };
+		CDAE3DB1F90A99C020184A91AEA87B52 /* GetTransactionListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 152054280EC0CC8B4E0BED5E6E97D4E7 /* GetTransactionListResponse.m */; };
+		D0045DFAB06240D3EB594F69A5BED41C /* MobileDeviceLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF75C7D174CF3C127A13900C0444869F /* MobileDeviceLoginRequest.m */; };
+		D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDD9B046A2EE2D3FC5D5CD58629485 /* UIImageView+AFNetworking.m */; };
+		D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1FEAD25B3EC3D7442B2F613EF31ED1 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62A5273AFDE19F7A3CD31E51D5AC191 /* CreditCardTrackType.m in Sources */ = {isa = PBXBuildFile; fileRef = A903128AD0E5AD91FD08F5FED9258326 /* CreditCardTrackType.m */; };
+		D70C339FA7E056AD00EC449BF8A921FF /* CreditCardType.h in Headers */ = {isa = PBXBuildFile; fileRef = 97EB9B5106B39F75B836E8C5D15D9512 /* CreditCardType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D723BACFE7F96F0D8927BF71991EADCD /* NameAndAddressType.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E648C60B1F04B88561A19A07034600 /* NameAndAddressType.m */; };
+		D942271A7742B3FE59B3FC52E91644BF /* CreditCardTrackType.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFFDD2963B309FE964261F9200A179C /* CreditCardTrackType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DADC3DA49484DB0276F897074C0E0020 /* authorizenet-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF7A04F2416B9AAE6E1CE574105176B /* authorizenet-sdk-dummy.m */; };
+		DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A7DF09C7157C29AAB22A0999484CED /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7C900DFFD68B61488D554CC29754894 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E124FB77060061F6323134AEC3E2C177 /* TestAccountCaptchaRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 517EDF2D82727F5BFC2FDA62889CD19A /* TestAccountCaptchaRequest.m */; };
+		E23EE799DAFC4FF5067ACF1B291782DF /* TestAccountRegistrationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F47919209A5AACE29156098BB350BF /* TestAccountRegistrationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5547702A151F285F820822D5773A6C1 /* AuthNetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9719BD89F1C8E7C711E46C251FB2FCB1 /* AuthNetResponse.m */; };
+		E5A63FD15843F44D197B97FEEFF83B8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F12B7F6C029BD763A75244195F484AF4 /* Foundation.framework */; };
+		E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D432400E50768636AB4AF3DF32DC8EFD /* AFURLConnectionOperation.m */; };
+		EB0A86C97590C4C519FB40818675AB7D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8BB3688E89508B467C61154F1FD8DA /* Reachability.m */; };
+		EC848D1115CDED92B48FECA4BF724180 /* CCAuthenticationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DC548FE25026A282C675BCE5620F7E /* CCAuthenticationType.m */; };
+		ECC53BDBE840A03ECFFF6C16B0675DC0 /* TransactionDetailsType.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A453E1514416311F8264BCE69EA827 /* TransactionDetailsType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED6ABA0026D848A9AD4BC21683C8A6B8 /* TransactionRequestType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC2B2AAEB67CF1FFFBC306E626B6308 /* TransactionRequestType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE10E2AEA8EDDAC17BA4E063BF1628BA /* CustomerDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7939D2F6CE6D8887945F3762A942F8 /* CustomerDataType.m */; };
+		EF2F8445BF62CE49F413B5B7E3BCB2ED /* FDSFilterType.m in Sources */ = {isa = PBXBuildFile; fileRef = 7023E10B8C28B2CFB16BEBE14684DC7E /* FDSFilterType.m */; };
+		F43547ACD1ECE24834BC4F48FC51D1CB /* NSString+stringForRFC3339DateTimeString.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E535B8846808BF9656D29E8C9CAFA2 /* NSString+stringForRFC3339DateTimeString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B70EFD3095065EFB1433A63971B859 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 189E380431C555A9E952D872A8CC5B5D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD91BB8980FE885B1DF4ECD556A7825D /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7B540CF480C263177705940EAE5F834 /* ANetApiResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = FC991104A971E5FA9EA2903F17EE63A2 /* ANetApiResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86F091331EF312A2650821C93F62F0D /* Error.h in Headers */ = {isa = PBXBuildFile; fileRef = 86EEE188FF7CA0FF7B4839D7D7A4BF38 /* Error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8CD17C4980D27CA7CCA6463FA0C4F3B /* AuthNetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5777555A17B4ACC275598E9A5914550B /* AuthNetRequest.m */; };
+		FC60C2047E957CBFA3BE33F1BD60CCB5 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DF89FBA056853D02DC8B6DB9AB819A /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B92FFEE5053660E01E8875B6D1D57D4A /* UIProgressView+AFNetworking.m */; };
+		FE064BFC30F8E77F1A7B59CD38B47DE4 /* CreditCardMaskedType.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472C8E35828761864568A7DCF5FFD78 /* CreditCardMaskedType.m */; };
+		FE3B0CB24011F6EFA65CB893B0A92504 /* MerchantAuthenticationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0B7C8132395CD6C080654E71960270 /* MerchantAuthenticationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF385C0CE0D951931AE6363126FEAD4 /* MobileDeviceRegistrationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E493F6B86AF182FCD200DA39AD72B580 /* MobileDeviceRegistrationRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61CFA457F0E81499A8300CA2038E8195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410B25DF16EA5C5B3E2698F74F9625FB;
+			remoteInfo = AFNetworking;
+		};
+		ACC71FE7AAD83BA35EB324A7C1ED1FE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2304815B71CCDCDD8B7E12335B6625E7;
+			remoteInfo = "authorizenet-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C919F1008D5FD600AED8844BC4961B /* OrderType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderType.m; path = "sdk/Anet SDK/OrderType.m"; sourceTree = "<group>"; };
+		04FDD9B046A2EE2D3FC5D5CD58629485 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		054097CD4484D3631594FCE75F8A669A /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		06DA9BABB55ECEFD567E565DCAFC28F6 /* GetSettledBatchListResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetSettledBatchListResponse.m; path = "sdk/Anet SDK/GetSettledBatchListResponse.m"; sourceTree = "<group>"; };
+		0736FD453A7182C7A044FB245BF86E0F /* TransactionDetailsType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionDetailsType.m; path = "sdk/Anet SDK/TransactionDetailsType.m"; sourceTree = "<group>"; };
+		07697B3A02F7B7B4EB14119F53FF435F /* FingerPrintObjectType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FingerPrintObjectType.h; path = sdk/Headers/FingerPrintObjectType.h; sourceTree = "<group>"; };
+		089A8B28CF90D16E83C5EF6BA34A118A /* AuthNetRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthNetRequest.h; path = sdk/Headers/AuthNetRequest.h; sourceTree = "<group>"; };
+		08F7F509F1BD5F552A6D3C712051DC70 /* CustomerAddressType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerAddressType.m; path = "sdk/Anet SDK/CustomerAddressType.m"; sourceTree = "<group>"; };
+		0995955CADBAFE4A649A6F9EE10DB485 /* GetUnsettledTransactionListRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetUnsettledTransactionListRequest.m; path = "sdk/Anet SDK/GetUnsettledTransactionListRequest.m"; sourceTree = "<group>"; };
+		0AF581B3DC074F529E48F8F1D1CDCCFD /* GetTransactionListResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetTransactionListResponse.h; path = sdk/Headers/GetTransactionListResponse.h; sourceTree = "<group>"; };
+		0BF69796EFC5A34A673D39D9A10FCEB0 /* AuthNetMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthNetMessage.m; path = "sdk/Anet SDK/AuthNetMessage.m"; sourceTree = "<group>"; };
+		0E0B7C8132395CD6C080654E71960270 /* MerchantAuthenticationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantAuthenticationType.h; path = sdk/Headers/MerchantAuthenticationType.h; sourceTree = "<group>"; };
+		0E1FEAD25B3EC3D7442B2F613EF31ED1 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		0F998FD450879F0508E4C82F7C4465FA /* SwiperDataType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwiperDataType.m; path = "sdk/Anet SDK/SwiperDataType.m"; sourceTree = "<group>"; };
+		10B0A842048990AC23DEA5BF7E9D3990 /* PaymentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PaymentType.h; path = sdk/Headers/PaymentType.h; sourceTree = "<group>"; };
+		10DF9A7D6584905AF96D907BA7502706 /* TestAccountCaptchaResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountCaptchaResponse.h; path = sdk/Headers/TestAccountCaptchaResponse.h; sourceTree = "<group>"; };
+		11DF6D6748277749E22A179FF647143D /* CreditCardMaskedType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CreditCardMaskedType.h; path = sdk/Headers/CreditCardMaskedType.h; sourceTree = "<group>"; };
+		123DB80596AB73911A4E80D6D8BB1853 /* NSString+stringWithXMLTag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+stringWithXMLTag.m"; path = "sdk/Extension/NSString+stringWithXMLTag.m"; sourceTree = "<group>"; };
+		12660CCC283F25ACC5691F9D7914B335 /* LogoutResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LogoutResponse.m; path = "sdk/Anet SDK/LogoutResponse.m"; sourceTree = "<group>"; };
+		1291C9D03CE4E271397AC1726625BD7D /* CreateTransactionRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CreateTransactionRequest.m; path = "sdk/Anet SDK/CreateTransactionRequest.m"; sourceTree = "<group>"; };
+		152054280EC0CC8B4E0BED5E6E97D4E7 /* GetTransactionListResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetTransactionListResponse.m; path = "sdk/Anet SDK/GetTransactionListResponse.m"; sourceTree = "<group>"; };
+		165D23CA1959ACD1964B25A54B076DF1 /* libPods-Deedio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Deedio.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B2EDD1345A674B46E8641CFF2A68D9 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		17E535B8846808BF9656D29E8C9CAFA2 /* NSString+stringForRFC3339DateTimeString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+stringForRFC3339DateTimeString.h"; path = "sdk/Extension/NSString+stringForRFC3339DateTimeString.h"; sourceTree = "<group>"; };
+		1868565B3AABF26249EE7DA3E3E182BE /* AuthNetMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthNetMessage.h; path = sdk/Headers/AuthNetMessage.h; sourceTree = "<group>"; };
+		189E380431C555A9E952D872A8CC5B5D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		19002E722A116DCBE30A20EABBDE9773 /* NSString+stringValueOfXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+stringValueOfXMLElement.m"; path = "sdk/Extension/NSString+stringValueOfXMLElement.m"; sourceTree = "<group>"; };
+		19C75BAF8E985849D9572D789C32BA75 /* TransactionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionResponse.h; path = sdk/Headers/TransactionResponse.h; sourceTree = "<group>"; };
+		1B1F1A598901FA0613D5E701F0E0D172 /* SendCustomerTransactionReceiptRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SendCustomerTransactionReceiptRequest.m; path = "sdk/Anet SDK/SendCustomerTransactionReceiptRequest.m"; sourceTree = "<group>"; };
+		1BFFDD2963B309FE964261F9200A179C /* CreditCardTrackType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CreditCardTrackType.h; path = sdk/Headers/CreditCardTrackType.h; sourceTree = "<group>"; };
+		1C9D7383F0C217007AE8B7029E37D466 /* TransRetailInfoType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransRetailInfoType.h; path = sdk/Headers/TransRetailInfoType.h; sourceTree = "<group>"; };
+		1CA2D3840ADEE21D1488C226303B3965 /* GetTransactionListRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetTransactionListRequest.m; path = "sdk/Anet SDK/GetTransactionListRequest.m"; sourceTree = "<group>"; };
+		1D35A0EF2879CA7F9FEF52396917A2D0 /* AuthNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthNet.h; path = sdk/Headers/AuthNet.h; sourceTree = "<group>"; };
+		1D5115A22EF002839EF062ACAAB3F7B6 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		1D5152EBB9AE8ECACCAA5DAF57EB2CFD /* CreateTransactionResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CreateTransactionResponse.h; path = sdk/Headers/CreateTransactionResponse.h; sourceTree = "<group>"; };
+		1E3F9C1D35D24DB040A7734E6D3A8F9C /* UserField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UserField.m; path = "sdk/Anet SDK/UserField.m"; sourceTree = "<group>"; };
+		1FF0EB38D6BCFAE62A1695ECE50DE3D6 /* LineItemType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LineItemType.h; path = sdk/Headers/LineItemType.h; sourceTree = "<group>"; };
+		2070C5397A36800BD05A1A2E8170AE7D /* NSString+stringWithXMLTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+stringWithXMLTag.h"; path = "sdk/Extension/NSString+stringWithXMLTag.h"; sourceTree = "<group>"; };
+		20ADA6CF909861365162C04A87CAFC92 /* TestAccountCaptchaResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountCaptchaResponse.h; path = "sdk/Anet SDK/TestAccountCaptchaResponse.h"; sourceTree = "<group>"; };
+		20BAA1B251BDCAF944B21BD62C579EC9 /* MerchantAccountType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantAccountType.m; path = "sdk/Anet SDK/MerchantAccountType.m"; sourceTree = "<group>"; };
+		23E5D90EC753ECF3EFB57898734271AF /* SettingType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SettingType.h; path = sdk/Headers/SettingType.h; sourceTree = "<group>"; };
+		24E009E90ED760DBC5948C1F2CFDC5A6 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		28608BA3A839D4E4FA1305EA90089C3F /* Pods-Deedio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deedio.debug.xcconfig"; sourceTree = "<group>"; };
+		28ECE9EDEE8B6411EF20BE4CBEE0AA41 /* TestAccountRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountRegistrationRequest.h; path = sdk/Headers/TestAccountRegistrationRequest.h; sourceTree = "<group>"; };
+		293599D41F44986259CB3831A92C9B96 /* NameAndAddressType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NameAndAddressType.h; path = sdk/Headers/NameAndAddressType.h; sourceTree = "<group>"; };
+		299C8D290E54EB32DF24C1FBEAD48E7E /* SendCustomerTransactionReceiptResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SendCustomerTransactionReceiptResponse.h; path = sdk/Headers/SendCustomerTransactionReceiptResponse.h; sourceTree = "<group>"; };
+		2B108A1EA44287DAFCFAB897AA84BD6A /* NSString+HMAC_MD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HMAC_MD5.h"; path = "sdk/Extension/NSString+HMAC_MD5.h"; sourceTree = "<group>"; };
+		2BBC965E7B4AB22A84A9D53578E12BC0 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		2C5230611A97885B0A72EFB83FE44734 /* MobileDeviceLoginRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileDeviceLoginRequest.h; path = sdk/Headers/MobileDeviceLoginRequest.h; sourceTree = "<group>"; };
+		2EE8F90225F3FF490188C8CC7B8A6A71 /* GetTransactionDetailsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetTransactionDetailsRequest.h; path = sdk/Headers/GetTransactionDetailsRequest.h; sourceTree = "<group>"; };
+		319FC4A56052D84D1C1A58DA14B61B9A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		32DC548FE25026A282C675BCE5620F7E /* CCAuthenticationType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCAuthenticationType.m; path = "sdk/Anet SDK/CCAuthenticationType.m"; sourceTree = "<group>"; };
+		3391E5A83CB2E67D01547F4BFC28990E /* SplitTenderPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SplitTenderPayment.h; path = sdk/Headers/SplitTenderPayment.h; sourceTree = "<group>"; };
+		3437555120CE31D2A8190074CF8B6793 /* TransactionSummaryType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionSummaryType.m; path = "sdk/Anet SDK/TransactionSummaryType.m"; sourceTree = "<group>"; };
+		35E1E5EDE1CBFB3E00D192316A25E859 /* MobileDeviceType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileDeviceType.h; path = sdk/Headers/MobileDeviceType.h; sourceTree = "<group>"; };
+		38AFDC593AF78AE31352155BC2937814 /* BatchDetailsType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchDetailsType.h; path = sdk/Headers/BatchDetailsType.h; sourceTree = "<group>"; };
+		39100DC25232A740EC5F25E571F54510 /* LogoutRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LogoutRequest.h; path = sdk/Headers/LogoutRequest.h; sourceTree = "<group>"; };
+		3D3E29410E7F4B27A827DFF902A87108 /* GetTransactionListRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetTransactionListRequest.h; path = sdk/Headers/GetTransactionListRequest.h; sourceTree = "<group>"; };
+		3E89403E12D5D0C97518FDE3F61D5252 /* GetTransactionDetailsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetTransactionDetailsRequest.m; path = "sdk/Anet SDK/GetTransactionDetailsRequest.m"; sourceTree = "<group>"; };
+		407FA9DB90E15AEC3FDDF9E577F2C5B1 /* NSString+stringWithEscapedXMLValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+stringWithEscapedXMLValue.m"; path = "sdk/Extension/NSString+stringWithEscapedXMLValue.m"; sourceTree = "<group>"; };
+		40E648C60B1F04B88561A19A07034600 /* NameAndAddressType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NameAndAddressType.m; path = "sdk/Anet SDK/NameAndAddressType.m"; sourceTree = "<group>"; };
+		414E1013710CEDCA628D3562CBED9BA3 /* BankAccountMaskedType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankAccountMaskedType.h; path = sdk/Headers/BankAccountMaskedType.h; sourceTree = "<group>"; };
+		41745802B332C0201AAE41FACDDAE7F1 /* Pods-Deedio-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deedio-resources.sh"; sourceTree = "<group>"; };
+		43EC181BB8C587D38187EEE51DFEEFEA /* CustomerAddressType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerAddressType.h; path = sdk/Headers/CustomerAddressType.h; sourceTree = "<group>"; };
+		44B3E040AB3D1C771CB1DAF24940BD69 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		44DF89FBA056853D02DC8B6DB9AB819A /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = sdk/Headers/GDataXMLNode.h; sourceTree = "<group>"; };
+		46F196A3E209909C56690BC135A6AB9B /* BankAccountType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankAccountType.m; path = "sdk/Anet SDK/BankAccountType.m"; sourceTree = "<group>"; };
+		477D35D4FF2AE4FFC1EFBB3D00FFC7B4 /* LineItemType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LineItemType.m; path = "sdk/Anet SDK/LineItemType.m"; sourceTree = "<group>"; };
+		49A05D4EFB63C50C518E4927A7A4B552 /* MerchantContactType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantContactType.h; path = sdk/Headers/MerchantContactType.h; sourceTree = "<group>"; };
+		4CBA8860DB62CC8DEBEF41197420A4B1 /* Messages.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Messages.m; path = "sdk/Anet SDK/Messages.m"; sourceTree = "<group>"; };
+		50A7E5A6BD4847DC99ACF3B2D533A21C /* TransRetailInfoType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransRetailInfoType.m; path = "sdk/Anet SDK/TransRetailInfoType.m"; sourceTree = "<group>"; };
+		50C4986B5448D2D9153CE887043BCA22 /* BatchStatisticType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BatchStatisticType.h; path = sdk/Headers/BatchStatisticType.h; sourceTree = "<group>"; };
+		517EDF2D82727F5BFC2FDA62889CD19A /* TestAccountCaptchaRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAccountCaptchaRequest.m; path = "sdk/Anet SDK/TestAccountCaptchaRequest.m"; sourceTree = "<group>"; };
+		51A671AC52BDE43AB8D64CF649E31DEF /* GetSettledBatchListRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetSettledBatchListRequest.h; path = sdk/Headers/GetSettledBatchListRequest.h; sourceTree = "<group>"; };
+		51E67E7B1C8FFD5F34D97F8013B3E72E /* CreditCardType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CreditCardType.m; path = "sdk/Anet SDK/CreditCardType.m"; sourceTree = "<group>"; };
+		52A453E1514416311F8264BCE69EA827 /* TransactionDetailsType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionDetailsType.h; path = sdk/Headers/TransactionDetailsType.h; sourceTree = "<group>"; };
+		53D6B8526A793878118F9426BAD2EBBC /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		53E82A4DC2AAF80A801A5741D86042E9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		54F955A137A56835C9D8BDD920AB3A70 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		55E90741E7479C661427CF36119ECDBC /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = "sdk/Anet SDK/GDataXMLNode.m"; sourceTree = "<group>"; };
+		5777555A17B4ACC275598E9A5914550B /* AuthNetRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthNetRequest.m; path = "sdk/Anet SDK/AuthNetRequest.m"; sourceTree = "<group>"; };
+		58EF39AF2FB36931A56E298F25188605 /* SendCustomerTransactionReceiptResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SendCustomerTransactionReceiptResponse.m; path = "sdk/Anet SDK/SendCustomerTransactionReceiptResponse.m"; sourceTree = "<group>"; };
+		59BFCBE09A9187C7EE9655F3D82B973B /* Pods-Deedio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Deedio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59FAD4D88A5A91978E2C26DC737A7007 /* CustomerDataType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomerDataType.h; path = sdk/Headers/CustomerDataType.h; sourceTree = "<group>"; };
+		5BA6FFE42A9B22A44374259C3508DEEB /* authorizenet-sdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "authorizenet-sdk.xcconfig"; sourceTree = "<group>"; };
+		5BC2B2AAEB67CF1FFFBC306E626B6308 /* TransactionRequestType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionRequestType.h; path = sdk/Headers/TransactionRequestType.h; sourceTree = "<group>"; };
+		5C031A62424FAB8B35D72ED0673D841E /* LogoutRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LogoutRequest.m; path = "sdk/Anet SDK/LogoutRequest.m"; sourceTree = "<group>"; };
+		5DAA466A2CE5175677850E397EB7DDAC /* MobileDeviceLoginResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileDeviceLoginResponse.m; path = "sdk/Anet SDK/MobileDeviceLoginResponse.m"; sourceTree = "<group>"; };
+		5EC6538B95A930E6E76507037AAB61A5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		608AB1ECE8FDE84E74ECCF9D2336734F /* OpaqueDataType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OpaqueDataType.h; path = sdk/Headers/OpaqueDataType.h; sourceTree = "<group>"; };
+		609AFBFACA9AE027DEA2C36D163B505E /* libauthorizenet-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libauthorizenet-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6144277E5E834D2B547C187F4D04EDEB /* MerchantContactType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantContactType.m; path = "sdk/Anet SDK/MerchantContactType.m"; sourceTree = "<group>"; };
+		6222293D790AD1DF8512466F3D6AFB5B /* TestAccountRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAccountRegistrationRequest.m; path = "sdk/Anet SDK/TestAccountRegistrationRequest.m"; sourceTree = "<group>"; };
+		63931BA7C21D1833FB262D0E848033BB /* FingerPrintObjectType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FingerPrintObjectType.m; path = "sdk/Anet SDK/FingerPrintObjectType.m"; sourceTree = "<group>"; };
+		64EB1E980EBEEC78D414117744A3C0F6 /* NSArray+PerformSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PerformSelector.m"; path = "sdk/Extension/NSArray+PerformSelector.m"; sourceTree = "<group>"; };
+		67B31E1E02CD8332E185191E80E17382 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		69CB19BA7D55F31CF45EA584E7F2711C /* TestAccountCaptchaResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAccountCaptchaResponse.m; path = "sdk/Anet SDK/TestAccountCaptchaResponse.m"; sourceTree = "<group>"; };
+		6CAFB1D19092BDD20C9E12680F38453A /* CreateTransactionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CreateTransactionResponse.m; path = "sdk/Anet SDK/CreateTransactionResponse.m"; sourceTree = "<group>"; };
+		6CF6101069FBF68AB73C9521D873C842 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		6D127B7F27B642C435FE93F2902CA40C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		6D2D98BC8DCF1C6E2BEF1F320F6B0E31 /* PaymentMaskedType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PaymentMaskedType.m; path = "sdk/Anet SDK/PaymentMaskedType.m"; sourceTree = "<group>"; };
+		6D934D66A63D54A6CF6630539E7F0C64 /* Pods-Deedio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Deedio.release.xcconfig"; sourceTree = "<group>"; };
+		6DA7151514378E264B1E70DE92B3DAF1 /* OrderExType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderExType.h; path = sdk/Headers/OrderExType.h; sourceTree = "<group>"; };
+		6E2CD4457A9978819E9EDCB36D47F839 /* FDSFilterType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FDSFilterType.h; path = sdk/Headers/FDSFilterType.h; sourceTree = "<group>"; };
+		6E7939D2F6CE6D8887945F3762A942F8 /* CustomerDataType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomerDataType.m; path = "sdk/Anet SDK/CustomerDataType.m"; sourceTree = "<group>"; };
+		6F99FB817CC904256EBB39B20D85AB9D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		7023E10B8C28B2CFB16BEBE14684DC7E /* FDSFilterType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FDSFilterType.m; path = "sdk/Anet SDK/FDSFilterType.m"; sourceTree = "<group>"; };
+		70F0BCB53A6719E272F0A44F541275A5 /* SwiperDataType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiperDataType.h; path = sdk/Headers/SwiperDataType.h; sourceTree = "<group>"; };
+		712CA8256B0C292510ACCE01CCBB594E /* NSArray+PerformSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PerformSelector.h"; path = "sdk/Extension/NSArray+PerformSelector.h"; sourceTree = "<group>"; };
+		71C65ABE6DC1F0E8349F805BBCDDA520 /* OpaqueDataType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OpaqueDataType.m; path = "sdk/Anet SDK/OpaqueDataType.m"; sourceTree = "<group>"; };
+		740776AD344C6411A86B8CDB16CE0BFD /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		741A1C692AFE5ECB990F10A5679F147E /* ExtendedAmountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtendedAmountType.h; path = sdk/Headers/ExtendedAmountType.h; sourceTree = "<group>"; };
+		74FDD3C201850C65CA53F752E399CE8C /* MobileDeviceType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileDeviceType.m; path = "sdk/Anet SDK/MobileDeviceType.m"; sourceTree = "<group>"; };
+		76C3AD1CF8B1646A67026597DC2C5A8A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		76FCF46B032C8B53D6BE31BC4F17C3FB /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		791B8D6A6E7A1636C3A70F7FB635EB4B /* Error.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Error.m; path = "sdk/Anet SDK/Error.m"; sourceTree = "<group>"; };
+		7B3FB9F0309C564D147C18B3569FDD0B /* GetBatchStatisticsRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetBatchStatisticsRequest.h; path = sdk/Headers/GetBatchStatisticsRequest.h; sourceTree = "<group>"; };
+		80EE647AA6833EDD0CAE4B98159C1712 /* ANetApiRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANetApiRequest.m; path = "sdk/Anet SDK/ANetApiRequest.m"; sourceTree = "<group>"; };
+		8472C8E35828761864568A7DCF5FFD78 /* CreditCardMaskedType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CreditCardMaskedType.m; path = "sdk/Anet SDK/CreditCardMaskedType.m"; sourceTree = "<group>"; };
+		86EEE188FF7CA0FF7B4839D7D7A4BF38 /* Error.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Error.h; path = sdk/Headers/Error.h; sourceTree = "<group>"; };
+		8955584C874C6CA00802EEF86C9F81F2 /* Pods-Deedio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Deedio-frameworks.sh"; sourceTree = "<group>"; };
+		89985DD43284450D3CF6C77694C8CEAC /* ANetApiRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANetApiRequest.h; path = sdk/Headers/ANetApiRequest.h; sourceTree = "<group>"; };
+		8AC2EC1E5B43582EBE80511E0EC46E87 /* SplitTenderPayment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SplitTenderPayment.m; path = "sdk/Anet SDK/SplitTenderPayment.m"; sourceTree = "<group>"; };
+		8BB73601B3EA58E539044AEB5772C5D8 /* TestAccountCaptchaRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountCaptchaRequest.h; path = sdk/Headers/TestAccountCaptchaRequest.h; sourceTree = "<group>"; };
+		8BFC896D6FE1D2C411C65CD54D5B194E /* authorizenet-sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "authorizenet-sdk-prefix.pch"; sourceTree = "<group>"; };
+		8DE5B85CECD64A9EEB02474D096332FC /* SendCustomerTransactionReceiptRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SendCustomerTransactionReceiptRequest.h; path = sdk/Headers/SendCustomerTransactionReceiptRequest.h; sourceTree = "<group>"; };
+		8EAC63A47CD8197F3F2F4B40A3368B9C /* NSString+stringWithEscapedXMLValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+stringWithEscapedXMLValue.h"; path = "sdk/Extension/NSString+stringWithEscapedXMLValue.h"; sourceTree = "<group>"; };
+		918CD74F5E466B9CC773CF85E2E5D908 /* BankAccountMaskedType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BankAccountMaskedType.m; path = "sdk/Anet SDK/BankAccountMaskedType.m"; sourceTree = "<group>"; };
+		91F47919209A5AACE29156098BB350BF /* TestAccountRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountRegistrationRequest.h; path = "sdk/Anet SDK/TestAccountRegistrationRequest.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9458BAF54950875B67ADC9FDD2C3E82E /* Messages.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Messages.h; path = sdk/Headers/Messages.h; sourceTree = "<group>"; };
+		9605C8913331BFF468352F0159B95312 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9719BD89F1C8E7C711E46C251FB2FCB1 /* AuthNetResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthNetResponse.m; path = "sdk/Anet SDK/AuthNetResponse.m"; sourceTree = "<group>"; };
+		976F3750B61C31E9045AD2A8D01AF90B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		97EB9B5106B39F75B836E8C5D15D9512 /* CreditCardType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CreditCardType.h; path = sdk/Headers/CreditCardType.h; sourceTree = "<group>"; };
+		98EC72B6CBCE2DD01ACFCD160AB1A2FD /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9A0D1558A85D577C70A5380913D73285 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9A9FE5359A1B83546F65F7D787D83EBC /* GetSettledBatchListRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetSettledBatchListRequest.m; path = "sdk/Anet SDK/GetSettledBatchListRequest.m"; sourceTree = "<group>"; };
+		9B02F6631287FF975868C8DBE8546A90 /* Pods-Deedio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Deedio-dummy.m"; sourceTree = "<group>"; };
+		9B156AECAC13DC5929BBE3E158080724 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9D84F60667C802C73219F6F6F3F17D78 /* GetSettledBatchListResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetSettledBatchListResponse.h; path = sdk/Headers/GetSettledBatchListResponse.h; sourceTree = "<group>"; };
+		9DF149A7428D6B8904B36203014546A2 /* ANetSolution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANetSolution.m; path = "sdk/Anet SDK/ANetSolution.m"; sourceTree = "<group>"; };
+		9EF1D28132D4019ADC1CB5FEF9E21A5C /* CCAuthenticationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCAuthenticationType.h; path = sdk/Headers/CCAuthenticationType.h; sourceTree = "<group>"; };
+		A38F36E43E3D2FD5430FFEEBEDC85F2E /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A4B4F84D1C7984CAAF81F9BB178CBE85 /* TransactionSummaryType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionSummaryType.h; path = sdk/Headers/TransactionSummaryType.h; sourceTree = "<group>"; };
+		A61C69D48E71BCD67B70096D910BA61B /* BankAccountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BankAccountType.h; path = sdk/Headers/BankAccountType.h; sourceTree = "<group>"; };
+		A6B62D9F7EC5C9DFE71F8589D50A396D /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		A7DF6A4E8F66D97F95F4560FD542ADE8 /* SettingType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SettingType.m; path = "sdk/Anet SDK/SettingType.m"; sourceTree = "<group>"; };
+		A8072D518F92978BB6970D7D35BABCA6 /* Pods-Deedio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Deedio-acknowledgements.plist"; sourceTree = "<group>"; };
+		A835D2A408E76CA982CA44A474CE541B /* GetBatchStatisticsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetBatchStatisticsResponse.m; path = "sdk/Anet SDK/GetBatchStatisticsResponse.m"; sourceTree = "<group>"; };
+		A903128AD0E5AD91FD08F5FED9258326 /* CreditCardTrackType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CreditCardTrackType.m; path = "sdk/Anet SDK/CreditCardTrackType.m"; sourceTree = "<group>"; };
+		A9A40184ECA13888ACAEAE188CC81A1A /* GetUnsettledTransactionListResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetUnsettledTransactionListResponse.m; path = "sdk/Anet SDK/GetUnsettledTransactionListResponse.m"; sourceTree = "<group>"; };
+		AD91BB8980FE885B1DF4ECD556A7825D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		AD978593FFF567C3D1D19B62015BF7B4 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "sdk/Anet SDK/Support Classes/Reachability.h"; sourceTree = "<group>"; };
+		B162C2CF4BAA84D64B12800AAEDCBD68 /* MerchantAccountType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MerchantAccountType.h; path = sdk/Headers/MerchantAccountType.h; sourceTree = "<group>"; };
+		B1709165FE8B3AF993F710AD5B7EF067 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		B2C30DCA181BE81E54BE569F67101D04 /* BatchStatisticType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BatchStatisticType.m; path = "sdk/Anet SDK/BatchStatisticType.m"; sourceTree = "<group>"; };
+		B5084FCCA0E443E3E945A040B9D52B1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B92FFEE5053660E01E8875B6D1D57D4A /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		B97083750F8EA583C653FACF479269DA /* TransactionRequestType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionRequestType.m; path = "sdk/Anet SDK/TransactionRequestType.m"; sourceTree = "<group>"; };
+		B9A0490100BF43339FA16BEEA2298470 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA19714602301E3D559718521506F2E /* OrderExType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OrderExType.m; path = "sdk/Anet SDK/OrderExType.m"; sourceTree = "<group>"; };
+		BAB3C7FB407B2DA3BB8913B01FEBA73F /* ANetApiResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANetApiResponse.m; path = "sdk/Anet SDK/ANetApiResponse.m"; sourceTree = "<group>"; };
+		BDBAE5A3794FF713BEA7DCA7EDA071DE /* MobileDeviceRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileDeviceRegistrationRequest.h; path = sdk/Headers/MobileDeviceRegistrationRequest.h; sourceTree = "<group>"; };
+		BEB8990B82D66C9D96A52FF5AC1415F1 /* NSString+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Hex.m"; path = "sdk/Extension/NSString+Hex.m"; sourceTree = "<group>"; };
+		C3B5B32B013C4D9250ECD04EC8205196 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		C3ED76EE6E8B4B12FAEB79E52024B9E8 /* UserField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UserField.h; path = sdk/Headers/UserField.h; sourceTree = "<group>"; };
+		C5738332100917F3F50D23FE0715F85E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		C6625CE08D72A3D17BB365FF97DF06D4 /* ExtendedAmountType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExtendedAmountType.m; path = "sdk/Anet SDK/ExtendedAmountType.m"; sourceTree = "<group>"; };
+		C85011B155247418CF8C50D4EEA71DAB /* AuthNet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AuthNet.m; path = "sdk/Anet SDK/AuthNet.m"; sourceTree = "<group>"; };
+		C9B70EFD3095065EFB1433A63971B859 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CA8BB3688E89508B467C61154F1FD8DA /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "sdk/Anet SDK/Support Classes/Reachability.m"; sourceTree = "<group>"; };
+		CC8598056D5673AC3C67451C4138F21E /* PaymentMaskedType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PaymentMaskedType.h; path = sdk/Headers/PaymentMaskedType.h; sourceTree = "<group>"; };
+		CF75C7D174CF3C127A13900C0444869F /* MobileDeviceLoginRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileDeviceLoginRequest.m; path = "sdk/Anet SDK/MobileDeviceLoginRequest.m"; sourceTree = "<group>"; };
+		D035279E3BBFF0882F5C79BB243757C0 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		D08EE0C4256479FB766F33902C065477 /* LogoutResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LogoutResponse.h; path = sdk/Headers/LogoutResponse.h; sourceTree = "<group>"; };
+		D11E45EF5666A50B7E34DF13CE37A3EF /* NSString+stringForRFC3339DateTimeString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+stringForRFC3339DateTimeString.m"; path = "sdk/Extension/NSString+stringForRFC3339DateTimeString.m"; sourceTree = "<group>"; };
+		D179C04E25F759C9AE3E353E428CAA07 /* UIToolbar+BackgroundImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+BackgroundImage.h"; path = "sdk/Extension/UIToolbar+BackgroundImage.h"; sourceTree = "<group>"; };
+		D2EA95ACF0788994A3BDFAA298EB651E /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		D3B26FB65FA24CBE28534766AFB27987 /* GetBatchStatisticsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetBatchStatisticsResponse.h; path = sdk/Headers/GetBatchStatisticsResponse.h; sourceTree = "<group>"; };
+		D432400E50768636AB4AF3DF32DC8EFD /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		D4DC41735B9EE8778A5CD54A062B8ED7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		D523EF3B4CA1C0838F7EA4D30A8ED318 /* MobileDeviceLoginResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileDeviceLoginResponse.h; path = sdk/Headers/MobileDeviceLoginResponse.h; sourceTree = "<group>"; };
+		D598D29D1D993B71304893A1CB3C4BEC /* MerchantAuthenticationType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MerchantAuthenticationType.m; path = "sdk/Anet SDK/MerchantAuthenticationType.m"; sourceTree = "<group>"; };
+		D5CD4B8824397AF0D3C86B9258C6CA32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D60C54EDF4DBA9FE49AACE14F1DD5922 /* NSString+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Hex.h"; path = "sdk/Extension/NSString+Hex.h"; sourceTree = "<group>"; };
+		D7C900DFFD68B61488D554CC29754894 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D817A663E8F70F1BA85946D1E85B9722 /* TestAccountRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAccountRegistrationResponse.h; path = sdk/Headers/TestAccountRegistrationResponse.h; sourceTree = "<group>"; };
+		D889B7443BC65A701F9A5048FAE798D8 /* AuthNetResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AuthNetResponse.h; path = sdk/Headers/AuthNetResponse.h; sourceTree = "<group>"; };
+		DAB6770DC8C62E0904510B494A1CEEDD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DB384D1B6A42F454FC97CD45FEBC224F /* GetTransactionDetailsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetTransactionDetailsResponse.h; path = sdk/Headers/GetTransactionDetailsResponse.h; sourceTree = "<group>"; };
+		E024411F427BB8CCCE49100031727F7F /* NSString+dataFromFilename.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+dataFromFilename.h"; path = "sdk/Extension/NSString+dataFromFilename.h"; sourceTree = "<group>"; };
+		E2569CF7B3D196EBAABB69455702DB94 /* MobileDeviceRegistrationResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileDeviceRegistrationResponse.m; path = "sdk/Anet SDK/MobileDeviceRegistrationResponse.m"; sourceTree = "<group>"; };
+		E28294E6ED19CF1D5AFECCE540DEDB65 /* NSString+HMAC_MD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HMAC_MD5.m"; path = "sdk/Extension/NSString+HMAC_MD5.m"; sourceTree = "<group>"; };
+		E333AE5D5CBF7A10EA06FF71116485B8 /* UIToolbar+BackgroundImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+BackgroundImage.m"; path = "sdk/Extension/UIToolbar+BackgroundImage.m"; sourceTree = "<group>"; };
+		E493F6B86AF182FCD200DA39AD72B580 /* MobileDeviceRegistrationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MobileDeviceRegistrationRequest.m; path = "sdk/Anet SDK/MobileDeviceRegistrationRequest.m"; sourceTree = "<group>"; };
+		E621D2179B698BB494E00CA73D3E7F52 /* TransactionResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransactionResponse.m; path = "sdk/Anet SDK/TransactionResponse.m"; sourceTree = "<group>"; };
+		E77BED4BBB3C6107E597AA72CB5C30B5 /* PermissionType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PermissionType.h; path = sdk/Headers/PermissionType.h; sourceTree = "<group>"; };
+		E98003C15D9D94E57907C3EA625EA4EE /* NSString+stringValueOfXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+stringValueOfXMLElement.h"; path = "sdk/Extension/NSString+stringValueOfXMLElement.h"; sourceTree = "<group>"; };
+		F00FBC0C201F61509255BBF31E21F256 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F12B7F6C029BD763A75244195F484AF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3A372429205EBEFB001DD0710D96CE3 /* CreateTransactionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CreateTransactionRequest.h; path = sdk/Headers/CreateTransactionRequest.h; sourceTree = "<group>"; };
+		F41771807862A5FFF59FACC04D7D0F0C /* ANetSolution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANetSolution.h; path = sdk/Headers/ANetSolution.h; sourceTree = "<group>"; };
+		F4A7DF09C7157C29AAB22A0999484CED /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F50EF88481B3973B32D1F0A0A6E88E82 /* GetUnsettledTransactionListRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetUnsettledTransactionListRequest.h; path = sdk/Headers/GetUnsettledTransactionListRequest.h; sourceTree = "<group>"; };
+		F5AAF5131457524854B76029A6D77B72 /* GetTransactionDetailsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetTransactionDetailsResponse.m; path = "sdk/Anet SDK/GetTransactionDetailsResponse.m"; sourceTree = "<group>"; };
+		F64EAD8D5B2E676C397D20C95B1E2191 /* GetBatchStatisticsRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetBatchStatisticsRequest.m; path = "sdk/Anet SDK/GetBatchStatisticsRequest.m"; sourceTree = "<group>"; };
+		F7DBA425E86C5DA213FC921CB79995A0 /* GetUnsettledTransactionListResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetUnsettledTransactionListResponse.h; path = sdk/Headers/GetUnsettledTransactionListResponse.h; sourceTree = "<group>"; };
+		F88D2A5E7D7832338CADB8E8A85F73D8 /* OrderType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrderType.h; path = sdk/Headers/OrderType.h; sourceTree = "<group>"; };
+		FBB431720A1FE7AEDB8E6AA8CD648DA3 /* PermissionType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PermissionType.m; path = "sdk/Anet SDK/PermissionType.m"; sourceTree = "<group>"; };
+		FC991104A971E5FA9EA2903F17EE63A2 /* ANetApiResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANetApiResponse.h; path = sdk/Headers/ANetApiResponse.h; sourceTree = "<group>"; };
+		FCEE740FB230180E2780B646C4E302BA /* MobileDeviceRegistrationResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobileDeviceRegistrationResponse.h; path = sdk/Headers/MobileDeviceRegistrationResponse.h; sourceTree = "<group>"; };
+		FDFB75515D2160DD13B1CBD2FA48CED3 /* PaymentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PaymentType.m; path = "sdk/Anet SDK/PaymentType.m"; sourceTree = "<group>"; };
+		FEB5738CF34F8608EA2FB4DD301B1EA8 /* NSString+dataFromFilename.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+dataFromFilename.m"; path = "sdk/Extension/NSString+dataFromFilename.m"; sourceTree = "<group>"; };
+		FF433864BB6A38C3A77E1F1581151752 /* BatchDetailsType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BatchDetailsType.m; path = "sdk/Anet SDK/BatchDetailsType.m"; sourceTree = "<group>"; };
+		FF7E47735999707CABE004A6FE000E03 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		FFF7A04F2416B9AAE6E1CE574105176B /* authorizenet-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "authorizenet-sdk-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F6C9573048CB602494C3037A0022F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D2AA98FFA1C13FEFD798F078CE016C /* Foundation.framework in Frameworks */,
+				9AD633451229C3C5486DF594DDFB5E88 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2302B860E29BAF0C375C9D6B6F9D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EE2886114F1B70BED2A3183165C3CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7CCF0FDA18A339B423ACC6F2731FC8 /* CoreGraphics.framework in Frameworks */,
+				E5A63FD15843F44D197B97FEEFF83B8F /* Foundation.framework in Frameworks */,
+				1F3981B54AAE154981B930F4CD60B955 /* MobileCoreServices.framework in Frameworks */,
+				3C79BC7D39B86F5960DF2F4C17B81F8F /* Security.framework in Frameworks */,
+				7856B91F55A8322B373D1E240D46868F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BDC35C20738514CD5FD16E222391A63 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		139491814D5CACAB0C2EE017CAD05D1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F1F96B16D0CE1F1E8C3763432B7979 /* Pods-Deedio */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1E42118CAB7B309994746CD21EBCB715 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC965E7B4AB22A84A9D53578E12BC0 /* AFSecurityPolicy.h */,
+				B1709165FE8B3AF993F710AD5B7EF067 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		57ED68A6666C9B762B4DFFADD8CA0260 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA6FFE42A9B22A44374259C3508DEEB /* authorizenet-sdk.xcconfig */,
+				FFF7A04F2416B9AAE6E1CE574105176B /* authorizenet-sdk-dummy.m */,
+				8BFC896D6FE1D2C411C65CD54D5B194E /* authorizenet-sdk-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/authorizenet-sdk";
+			sourceTree = "<group>";
+		};
+		66A9CEB690A48655F0675D589F64400F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AD91BB8980FE885B1DF4ECD556A7825D /* AFNetworkActivityIndicatorManager.h */,
+				D4DC41735B9EE8778A5CD54A062B8ED7 /* AFNetworkActivityIndicatorManager.m */,
+				6F99FB817CC904256EBB39B20D85AB9D /* UIActivityIndicatorView+AFNetworking.h */,
+				C5738332100917F3F50D23FE0715F85E /* UIActivityIndicatorView+AFNetworking.m */,
+				D035279E3BBFF0882F5C79BB243757C0 /* UIAlertView+AFNetworking.h */,
+				1D5115A22EF002839EF062ACAAB3F7B6 /* UIAlertView+AFNetworking.m */,
+				9B156AECAC13DC5929BBE3E158080724 /* UIButton+AFNetworking.h */,
+				16B2EDD1345A674B46E8641CFF2A68D9 /* UIButton+AFNetworking.m */,
+				98EC72B6CBCE2DD01ACFCD160AB1A2FD /* UIImage+AFNetworking.h */,
+				0E1FEAD25B3EC3D7442B2F613EF31ED1 /* UIImageView+AFNetworking.h */,
+				04FDD9B046A2EE2D3FC5D5CD58629485 /* UIImageView+AFNetworking.m */,
+				189E380431C555A9E952D872A8CC5B5D /* UIKit+AFNetworking.h */,
+				976F3750B61C31E9045AD2A8D01AF90B /* UIProgressView+AFNetworking.h */,
+				B92FFEE5053660E01E8875B6D1D57D4A /* UIProgressView+AFNetworking.m */,
+				740776AD344C6411A86B8CDB16CE0BFD /* UIRefreshControl+AFNetworking.h */,
+				FF7E47735999707CABE004A6FE000E03 /* UIRefreshControl+AFNetworking.m */,
+				6D127B7F27B642C435FE93F2902CA40C /* UIWebView+AFNetworking.h */,
+				C3B5B32B013C4D9250ECD04EC8205196 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				9A18FC9BB9B23690738C71B091DB8C87 /* Pods */,
+				FA91D32C0FA1B750AC08AD98A3400A03 /* Products */,
+				139491814D5CACAB0C2EE017CAD05D1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C351AB1A6776ABA704DD7F558C399A /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				24E009E90ED760DBC5948C1F2CFDC5A6 /* AFHTTPRequestOperation.h */,
+				F00FBC0C201F61509255BBF31E21F256 /* AFHTTPRequestOperation.m */,
+				C9B70EFD3095065EFB1433A63971B859 /* AFHTTPRequestOperationManager.h */,
+				054097CD4484D3631594FCE75F8A669A /* AFHTTPRequestOperationManager.m */,
+				F4A7DF09C7157C29AAB22A0999484CED /* AFURLConnectionOperation.h */,
+				D432400E50768636AB4AF3DF32DC8EFD /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		8BDC35C20738514CD5FD16E222391A63 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5084FCCA0E443E3E945A040B9D52B1F /* CoreGraphics.framework */,
+				F12B7F6C029BD763A75244195F484AF4 /* Foundation.framework */,
+				76C3AD1CF8B1646A67026597DC2C5A8A /* MobileCoreServices.framework */,
+				D5CD4B8824397AF0D3C86B9258C6CA32 /* Security.framework */,
+				DAB6770DC8C62E0904510B494A1CEEDD /* SystemConfiguration.framework */,
+				9A0D1558A85D577C70A5380913D73285 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8E07685E9F1526956750EB724D3F317F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				D2EA95ACF0788994A3BDFAA298EB651E /* AFURLRequestSerialization.h */,
+				319FC4A56052D84D1C1A58DA14B61B9A /* AFURLRequestSerialization.m */,
+				9605C8913331BFF468352F0159B95312 /* AFURLResponseSerialization.h */,
+				67B31E1E02CD8332E185191E80E17382 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		9A18FC9BB9B23690738C71B091DB8C87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0A593D391E4C7D84C4549F29A22C59B /* AFNetworking */,
+				FFA3C4B7C80C259DEF47506E638AC5BE /* authorizenet-sdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0A593D391E4C7D84C4549F29A22C59B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A6B62D9F7EC5C9DFE71F8589D50A396D /* AFNetworking.h */,
+				87C351AB1A6776ABA704DD7F558C399A /* NSURLConnection */,
+				F54B33BFB127DDB164FFD28A83580581 /* NSURLSession */,
+				E1AF33ADF18F71C205CA6F8550F7F2AC /* Reachability */,
+				1E42118CAB7B309994746CD21EBCB715 /* Security */,
+				8E07685E9F1526956750EB724D3F317F /* Serialization */,
+				A1393BD918BD28EB443FD6E7A894DB6B /* Support Files */,
+				66A9CEB690A48655F0675D589F64400F /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A1393BD918BD28EB443FD6E7A894DB6B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CF6101069FBF68AB73C9521D873C842 /* AFNetworking.xcconfig */,
+				54F955A137A56835C9D8BDD920AB3A70 /* AFNetworking-dummy.m */,
+				53D6B8526A793878118F9426BAD2EBBC /* AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		D1F1F96B16D0CE1F1E8C3763432B7979 /* Pods-Deedio */ = {
+			isa = PBXGroup;
+			children = (
+				59BFCBE09A9187C7EE9655F3D82B973B /* Pods-Deedio-acknowledgements.markdown */,
+				A8072D518F92978BB6970D7D35BABCA6 /* Pods-Deedio-acknowledgements.plist */,
+				9B02F6631287FF975868C8DBE8546A90 /* Pods-Deedio-dummy.m */,
+				8955584C874C6CA00802EEF86C9F81F2 /* Pods-Deedio-frameworks.sh */,
+				41745802B332C0201AAE41FACDDAE7F1 /* Pods-Deedio-resources.sh */,
+				28608BA3A839D4E4FA1305EA90089C3F /* Pods-Deedio.debug.xcconfig */,
+				6D934D66A63D54A6CF6630539E7F0C64 /* Pods-Deedio.release.xcconfig */,
+			);
+			name = "Pods-Deedio";
+			path = "Target Support Files/Pods-Deedio";
+			sourceTree = "<group>";
+		};
+		E1AF33ADF18F71C205CA6F8550F7F2AC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A38F36E43E3D2FD5430FFEEBEDC85F2E /* AFNetworkReachabilityManager.h */,
+				44B3E040AB3D1C771CB1DAF24940BD69 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F54B33BFB127DDB164FFD28A83580581 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D7C900DFFD68B61488D554CC29754894 /* AFHTTPSessionManager.h */,
+				5EC6538B95A930E6E76507037AAB61A5 /* AFHTTPSessionManager.m */,
+				53E82A4DC2AAF80A801A5741D86042E9 /* AFURLSessionManager.h */,
+				76FCF46B032C8B53D6BE31BC4F17C3FB /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		FA91D32C0FA1B750AC08AD98A3400A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A0490100BF43339FA16BEEA2298470 /* libAFNetworking.a */,
+				609AFBFACA9AE027DEA2C36D163B505E /* libauthorizenet-sdk.a */,
+				165D23CA1959ACD1964B25A54B076DF1 /* libPods-Deedio.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFA3C4B7C80C259DEF47506E638AC5BE /* authorizenet-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				89985DD43284450D3CF6C77694C8CEAC /* ANetApiRequest.h */,
+				80EE647AA6833EDD0CAE4B98159C1712 /* ANetApiRequest.m */,
+				FC991104A971E5FA9EA2903F17EE63A2 /* ANetApiResponse.h */,
+				BAB3C7FB407B2DA3BB8913B01FEBA73F /* ANetApiResponse.m */,
+				F41771807862A5FFF59FACC04D7D0F0C /* ANetSolution.h */,
+				9DF149A7428D6B8904B36203014546A2 /* ANetSolution.m */,
+				1D35A0EF2879CA7F9FEF52396917A2D0 /* AuthNet.h */,
+				C85011B155247418CF8C50D4EEA71DAB /* AuthNet.m */,
+				1868565B3AABF26249EE7DA3E3E182BE /* AuthNetMessage.h */,
+				0BF69796EFC5A34A673D39D9A10FCEB0 /* AuthNetMessage.m */,
+				089A8B28CF90D16E83C5EF6BA34A118A /* AuthNetRequest.h */,
+				5777555A17B4ACC275598E9A5914550B /* AuthNetRequest.m */,
+				D889B7443BC65A701F9A5048FAE798D8 /* AuthNetResponse.h */,
+				9719BD89F1C8E7C711E46C251FB2FCB1 /* AuthNetResponse.m */,
+				414E1013710CEDCA628D3562CBED9BA3 /* BankAccountMaskedType.h */,
+				918CD74F5E466B9CC773CF85E2E5D908 /* BankAccountMaskedType.m */,
+				A61C69D48E71BCD67B70096D910BA61B /* BankAccountType.h */,
+				46F196A3E209909C56690BC135A6AB9B /* BankAccountType.m */,
+				38AFDC593AF78AE31352155BC2937814 /* BatchDetailsType.h */,
+				FF433864BB6A38C3A77E1F1581151752 /* BatchDetailsType.m */,
+				50C4986B5448D2D9153CE887043BCA22 /* BatchStatisticType.h */,
+				B2C30DCA181BE81E54BE569F67101D04 /* BatchStatisticType.m */,
+				9EF1D28132D4019ADC1CB5FEF9E21A5C /* CCAuthenticationType.h */,
+				32DC548FE25026A282C675BCE5620F7E /* CCAuthenticationType.m */,
+				F3A372429205EBEFB001DD0710D96CE3 /* CreateTransactionRequest.h */,
+				1291C9D03CE4E271397AC1726625BD7D /* CreateTransactionRequest.m */,
+				1D5152EBB9AE8ECACCAA5DAF57EB2CFD /* CreateTransactionResponse.h */,
+				6CAFB1D19092BDD20C9E12680F38453A /* CreateTransactionResponse.m */,
+				11DF6D6748277749E22A179FF647143D /* CreditCardMaskedType.h */,
+				8472C8E35828761864568A7DCF5FFD78 /* CreditCardMaskedType.m */,
+				1BFFDD2963B309FE964261F9200A179C /* CreditCardTrackType.h */,
+				A903128AD0E5AD91FD08F5FED9258326 /* CreditCardTrackType.m */,
+				97EB9B5106B39F75B836E8C5D15D9512 /* CreditCardType.h */,
+				51E67E7B1C8FFD5F34D97F8013B3E72E /* CreditCardType.m */,
+				43EC181BB8C587D38187EEE51DFEEFEA /* CustomerAddressType.h */,
+				08F7F509F1BD5F552A6D3C712051DC70 /* CustomerAddressType.m */,
+				59FAD4D88A5A91978E2C26DC737A7007 /* CustomerDataType.h */,
+				6E7939D2F6CE6D8887945F3762A942F8 /* CustomerDataType.m */,
+				86EEE188FF7CA0FF7B4839D7D7A4BF38 /* Error.h */,
+				791B8D6A6E7A1636C3A70F7FB635EB4B /* Error.m */,
+				741A1C692AFE5ECB990F10A5679F147E /* ExtendedAmountType.h */,
+				C6625CE08D72A3D17BB365FF97DF06D4 /* ExtendedAmountType.m */,
+				6E2CD4457A9978819E9EDCB36D47F839 /* FDSFilterType.h */,
+				7023E10B8C28B2CFB16BEBE14684DC7E /* FDSFilterType.m */,
+				07697B3A02F7B7B4EB14119F53FF435F /* FingerPrintObjectType.h */,
+				63931BA7C21D1833FB262D0E848033BB /* FingerPrintObjectType.m */,
+				44DF89FBA056853D02DC8B6DB9AB819A /* GDataXMLNode.h */,
+				55E90741E7479C661427CF36119ECDBC /* GDataXMLNode.m */,
+				7B3FB9F0309C564D147C18B3569FDD0B /* GetBatchStatisticsRequest.h */,
+				F64EAD8D5B2E676C397D20C95B1E2191 /* GetBatchStatisticsRequest.m */,
+				D3B26FB65FA24CBE28534766AFB27987 /* GetBatchStatisticsResponse.h */,
+				A835D2A408E76CA982CA44A474CE541B /* GetBatchStatisticsResponse.m */,
+				51A671AC52BDE43AB8D64CF649E31DEF /* GetSettledBatchListRequest.h */,
+				9A9FE5359A1B83546F65F7D787D83EBC /* GetSettledBatchListRequest.m */,
+				9D84F60667C802C73219F6F6F3F17D78 /* GetSettledBatchListResponse.h */,
+				06DA9BABB55ECEFD567E565DCAFC28F6 /* GetSettledBatchListResponse.m */,
+				2EE8F90225F3FF490188C8CC7B8A6A71 /* GetTransactionDetailsRequest.h */,
+				3E89403E12D5D0C97518FDE3F61D5252 /* GetTransactionDetailsRequest.m */,
+				DB384D1B6A42F454FC97CD45FEBC224F /* GetTransactionDetailsResponse.h */,
+				F5AAF5131457524854B76029A6D77B72 /* GetTransactionDetailsResponse.m */,
+				3D3E29410E7F4B27A827DFF902A87108 /* GetTransactionListRequest.h */,
+				1CA2D3840ADEE21D1488C226303B3965 /* GetTransactionListRequest.m */,
+				0AF581B3DC074F529E48F8F1D1CDCCFD /* GetTransactionListResponse.h */,
+				152054280EC0CC8B4E0BED5E6E97D4E7 /* GetTransactionListResponse.m */,
+				F50EF88481B3973B32D1F0A0A6E88E82 /* GetUnsettledTransactionListRequest.h */,
+				0995955CADBAFE4A649A6F9EE10DB485 /* GetUnsettledTransactionListRequest.m */,
+				F7DBA425E86C5DA213FC921CB79995A0 /* GetUnsettledTransactionListResponse.h */,
+				A9A40184ECA13888ACAEAE188CC81A1A /* GetUnsettledTransactionListResponse.m */,
+				1FF0EB38D6BCFAE62A1695ECE50DE3D6 /* LineItemType.h */,
+				477D35D4FF2AE4FFC1EFBB3D00FFC7B4 /* LineItemType.m */,
+				39100DC25232A740EC5F25E571F54510 /* LogoutRequest.h */,
+				5C031A62424FAB8B35D72ED0673D841E /* LogoutRequest.m */,
+				D08EE0C4256479FB766F33902C065477 /* LogoutResponse.h */,
+				12660CCC283F25ACC5691F9D7914B335 /* LogoutResponse.m */,
+				B162C2CF4BAA84D64B12800AAEDCBD68 /* MerchantAccountType.h */,
+				20BAA1B251BDCAF944B21BD62C579EC9 /* MerchantAccountType.m */,
+				0E0B7C8132395CD6C080654E71960270 /* MerchantAuthenticationType.h */,
+				D598D29D1D993B71304893A1CB3C4BEC /* MerchantAuthenticationType.m */,
+				49A05D4EFB63C50C518E4927A7A4B552 /* MerchantContactType.h */,
+				6144277E5E834D2B547C187F4D04EDEB /* MerchantContactType.m */,
+				9458BAF54950875B67ADC9FDD2C3E82E /* Messages.h */,
+				4CBA8860DB62CC8DEBEF41197420A4B1 /* Messages.m */,
+				2C5230611A97885B0A72EFB83FE44734 /* MobileDeviceLoginRequest.h */,
+				CF75C7D174CF3C127A13900C0444869F /* MobileDeviceLoginRequest.m */,
+				D523EF3B4CA1C0838F7EA4D30A8ED318 /* MobileDeviceLoginResponse.h */,
+				5DAA466A2CE5175677850E397EB7DDAC /* MobileDeviceLoginResponse.m */,
+				BDBAE5A3794FF713BEA7DCA7EDA071DE /* MobileDeviceRegistrationRequest.h */,
+				E493F6B86AF182FCD200DA39AD72B580 /* MobileDeviceRegistrationRequest.m */,
+				FCEE740FB230180E2780B646C4E302BA /* MobileDeviceRegistrationResponse.h */,
+				E2569CF7B3D196EBAABB69455702DB94 /* MobileDeviceRegistrationResponse.m */,
+				35E1E5EDE1CBFB3E00D192316A25E859 /* MobileDeviceType.h */,
+				74FDD3C201850C65CA53F752E399CE8C /* MobileDeviceType.m */,
+				293599D41F44986259CB3831A92C9B96 /* NameAndAddressType.h */,
+				40E648C60B1F04B88561A19A07034600 /* NameAndAddressType.m */,
+				712CA8256B0C292510ACCE01CCBB594E /* NSArray+PerformSelector.h */,
+				64EB1E980EBEEC78D414117744A3C0F6 /* NSArray+PerformSelector.m */,
+				E024411F427BB8CCCE49100031727F7F /* NSString+dataFromFilename.h */,
+				FEB5738CF34F8608EA2FB4DD301B1EA8 /* NSString+dataFromFilename.m */,
+				D60C54EDF4DBA9FE49AACE14F1DD5922 /* NSString+Hex.h */,
+				BEB8990B82D66C9D96A52FF5AC1415F1 /* NSString+Hex.m */,
+				2B108A1EA44287DAFCFAB897AA84BD6A /* NSString+HMAC_MD5.h */,
+				E28294E6ED19CF1D5AFECCE540DEDB65 /* NSString+HMAC_MD5.m */,
+				17E535B8846808BF9656D29E8C9CAFA2 /* NSString+stringForRFC3339DateTimeString.h */,
+				D11E45EF5666A50B7E34DF13CE37A3EF /* NSString+stringForRFC3339DateTimeString.m */,
+				E98003C15D9D94E57907C3EA625EA4EE /* NSString+stringValueOfXMLElement.h */,
+				19002E722A116DCBE30A20EABBDE9773 /* NSString+stringValueOfXMLElement.m */,
+				8EAC63A47CD8197F3F2F4B40A3368B9C /* NSString+stringWithEscapedXMLValue.h */,
+				407FA9DB90E15AEC3FDDF9E577F2C5B1 /* NSString+stringWithEscapedXMLValue.m */,
+				2070C5397A36800BD05A1A2E8170AE7D /* NSString+stringWithXMLTag.h */,
+				123DB80596AB73911A4E80D6D8BB1853 /* NSString+stringWithXMLTag.m */,
+				608AB1ECE8FDE84E74ECCF9D2336734F /* OpaqueDataType.h */,
+				71C65ABE6DC1F0E8349F805BBCDDA520 /* OpaqueDataType.m */,
+				6DA7151514378E264B1E70DE92B3DAF1 /* OrderExType.h */,
+				BAA19714602301E3D559718521506F2E /* OrderExType.m */,
+				F88D2A5E7D7832338CADB8E8A85F73D8 /* OrderType.h */,
+				01C919F1008D5FD600AED8844BC4961B /* OrderType.m */,
+				CC8598056D5673AC3C67451C4138F21E /* PaymentMaskedType.h */,
+				6D2D98BC8DCF1C6E2BEF1F320F6B0E31 /* PaymentMaskedType.m */,
+				10B0A842048990AC23DEA5BF7E9D3990 /* PaymentType.h */,
+				FDFB75515D2160DD13B1CBD2FA48CED3 /* PaymentType.m */,
+				E77BED4BBB3C6107E597AA72CB5C30B5 /* PermissionType.h */,
+				FBB431720A1FE7AEDB8E6AA8CD648DA3 /* PermissionType.m */,
+				AD978593FFF567C3D1D19B62015BF7B4 /* Reachability.h */,
+				CA8BB3688E89508B467C61154F1FD8DA /* Reachability.m */,
+				8DE5B85CECD64A9EEB02474D096332FC /* SendCustomerTransactionReceiptRequest.h */,
+				1B1F1A598901FA0613D5E701F0E0D172 /* SendCustomerTransactionReceiptRequest.m */,
+				299C8D290E54EB32DF24C1FBEAD48E7E /* SendCustomerTransactionReceiptResponse.h */,
+				58EF39AF2FB36931A56E298F25188605 /* SendCustomerTransactionReceiptResponse.m */,
+				23E5D90EC753ECF3EFB57898734271AF /* SettingType.h */,
+				A7DF6A4E8F66D97F95F4560FD542ADE8 /* SettingType.m */,
+				3391E5A83CB2E67D01547F4BFC28990E /* SplitTenderPayment.h */,
+				8AC2EC1E5B43582EBE80511E0EC46E87 /* SplitTenderPayment.m */,
+				70F0BCB53A6719E272F0A44F541275A5 /* SwiperDataType.h */,
+				0F998FD450879F0508E4C82F7C4465FA /* SwiperDataType.m */,
+				8BB73601B3EA58E539044AEB5772C5D8 /* TestAccountCaptchaRequest.h */,
+				517EDF2D82727F5BFC2FDA62889CD19A /* TestAccountCaptchaRequest.m */,
+				20ADA6CF909861365162C04A87CAFC92 /* TestAccountCaptchaResponse.h */,
+				10DF9A7D6584905AF96D907BA7502706 /* TestAccountCaptchaResponse.h */,
+				69CB19BA7D55F31CF45EA584E7F2711C /* TestAccountCaptchaResponse.m */,
+				91F47919209A5AACE29156098BB350BF /* TestAccountRegistrationRequest.h */,
+				28ECE9EDEE8B6411EF20BE4CBEE0AA41 /* TestAccountRegistrationRequest.h */,
+				6222293D790AD1DF8512466F3D6AFB5B /* TestAccountRegistrationRequest.m */,
+				D817A663E8F70F1BA85946D1E85B9722 /* TestAccountRegistrationResponse.h */,
+				52A453E1514416311F8264BCE69EA827 /* TransactionDetailsType.h */,
+				0736FD453A7182C7A044FB245BF86E0F /* TransactionDetailsType.m */,
+				5BC2B2AAEB67CF1FFFBC306E626B6308 /* TransactionRequestType.h */,
+				B97083750F8EA583C653FACF479269DA /* TransactionRequestType.m */,
+				19C75BAF8E985849D9572D789C32BA75 /* TransactionResponse.h */,
+				E621D2179B698BB494E00CA73D3E7F52 /* TransactionResponse.m */,
+				A4B4F84D1C7984CAAF81F9BB178CBE85 /* TransactionSummaryType.h */,
+				3437555120CE31D2A8190074CF8B6793 /* TransactionSummaryType.m */,
+				1C9D7383F0C217007AE8B7029E37D466 /* TransRetailInfoType.h */,
+				50A7E5A6BD4847DC99ACF3B2D533A21C /* TransRetailInfoType.m */,
+				D179C04E25F759C9AE3E353E428CAA07 /* UIToolbar+BackgroundImage.h */,
+				E333AE5D5CBF7A10EA06FF71116485B8 /* UIToolbar+BackgroundImage.m */,
+				C3ED76EE6E8B4B12FAEB79E52024B9E8 /* UserField.h */,
+				1E3F9C1D35D24DB040A7734E6D3A8F9C /* UserField.m */,
+				57ED68A6666C9B762B4DFFADD8CA0260 /* Support Files */,
+			);
+			path = "authorizenet-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1A4C2C4E65A801E590930E50B92C818 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C743D413688138FCD080DC44A10FC0D7 /* ANetApiRequest.h in Headers */,
+				F7B540CF480C263177705940EAE5F834 /* ANetApiResponse.h in Headers */,
+				17FB9272674CC95AC65C0FECA05E1A24 /* ANetSolution.h in Headers */,
+				97071D7249767EB082D2F9A53B8518B4 /* AuthNet.h in Headers */,
+				4382B16015004696047AA1227FD4A4C5 /* AuthNetMessage.h in Headers */,
+				8B777CF46102661EEF89C763FC43C87D /* AuthNetRequest.h in Headers */,
+				6D60B138402AA586814198F6765C1AAB /* AuthNetResponse.h in Headers */,
+				519F08FE9B5936FAE160DC4430517569 /* BankAccountMaskedType.h in Headers */,
+				3DAA35F89FD808942BC49AD8DFB2B819 /* BankAccountType.h in Headers */,
+				3368BD6053F92255F5C6B5B46EB606FA /* BatchDetailsType.h in Headers */,
+				B0CC850C03E4ED7603754810BCB9D01A /* BatchStatisticType.h in Headers */,
+				7E8DE6A4A4669441FD20A52330FE4680 /* CCAuthenticationType.h in Headers */,
+				2F422C3863C59C39BA90BE929C1D0424 /* CreateTransactionRequest.h in Headers */,
+				5FD8D9A8CB9F6EC1D57DF5AC34EF9987 /* CreateTransactionResponse.h in Headers */,
+				2B4F73370528A83C800265933D14A20C /* CreditCardMaskedType.h in Headers */,
+				D942271A7742B3FE59B3FC52E91644BF /* CreditCardTrackType.h in Headers */,
+				D70C339FA7E056AD00EC449BF8A921FF /* CreditCardType.h in Headers */,
+				6118B9A87E54BBB5DF9A36C05E329ADA /* CustomerAddressType.h in Headers */,
+				AA48A58F4731D38DD53FE5927C2EF3CC /* CustomerDataType.h in Headers */,
+				F86F091331EF312A2650821C93F62F0D /* Error.h in Headers */,
+				3D24A31E3E7B72F5EC66EA4B18F3AE54 /* ExtendedAmountType.h in Headers */,
+				48A4D46B3EB65795E79E8A2C3FA08366 /* FDSFilterType.h in Headers */,
+				5195373C5CA98A998B0EFDDC52BE6E0E /* FingerPrintObjectType.h in Headers */,
+				FC60C2047E957CBFA3BE33F1BD60CCB5 /* GDataXMLNode.h in Headers */,
+				6A23AA234C58EA03C9271E1D7C5476EE /* GetBatchStatisticsRequest.h in Headers */,
+				233ABD5F50689F3702A1BF866FF717B3 /* GetBatchStatisticsResponse.h in Headers */,
+				8E10F7EC26E32E405A50FC9A86A72692 /* GetSettledBatchListRequest.h in Headers */,
+				58B1E63B258561A423B1D923707C8906 /* GetSettledBatchListResponse.h in Headers */,
+				6C97610845ED99B18CF9171922A9C58E /* GetTransactionDetailsRequest.h in Headers */,
+				87DAB3B84CA08C91C08525B0B3B32263 /* GetTransactionDetailsResponse.h in Headers */,
+				2D0F20CEBE6C73A66216071CC67E0692 /* GetTransactionListRequest.h in Headers */,
+				11145E051BE5E9ADB4B137662014DAF9 /* GetTransactionListResponse.h in Headers */,
+				0A924D0BEE13BF0B07AEED64AB72FF0E /* GetUnsettledTransactionListRequest.h in Headers */,
+				B9E47A5F310F189B7424973405681475 /* GetUnsettledTransactionListResponse.h in Headers */,
+				4FFD468A6312E994221C5529429545CC /* LineItemType.h in Headers */,
+				5A33DED41D262A20540924185CF9E9C4 /* LogoutRequest.h in Headers */,
+				5F33DDBFED822B2ED56C8C9CE0FDD22E /* LogoutResponse.h in Headers */,
+				ACCFC3AC96D68A6B52F49D4CEAE6B2C6 /* MerchantAccountType.h in Headers */,
+				FE3B0CB24011F6EFA65CB893B0A92504 /* MerchantAuthenticationType.h in Headers */,
+				38501051911AE3904B079464C4452445 /* MerchantContactType.h in Headers */,
+				99F9F7BFBDBCF6AFA57E5E83726A9E46 /* Messages.h in Headers */,
+				A956FA9E7EFF59C648E7DC28D5AAA9B5 /* MobileDeviceLoginRequest.h in Headers */,
+				8EB32C5A7B98BC06B7F53B84193F9EE3 /* MobileDeviceLoginResponse.h in Headers */,
+				A0C5FAF356E758BB49DC87481C6754C3 /* MobileDeviceRegistrationRequest.h in Headers */,
+				0B7C3F3407E69B7ED4099CC0B37A05F3 /* MobileDeviceRegistrationResponse.h in Headers */,
+				3DB6867308F8FD569F1DF110B345A032 /* MobileDeviceType.h in Headers */,
+				087791C4F6BBBEE585C81669C29E1CEE /* NameAndAddressType.h in Headers */,
+				0236F200232A77982A666B8AA86D47ED /* NSArray+PerformSelector.h in Headers */,
+				AC48114C8C443698F6A7FD48E7A21C66 /* NSString+dataFromFilename.h in Headers */,
+				16C19C4FD3C1EFF1FA8B1F4A3488817B /* NSString+Hex.h in Headers */,
+				269198010D6348527CF5ED2B659ED9CA /* NSString+HMAC_MD5.h in Headers */,
+				F43547ACD1ECE24834BC4F48FC51D1CB /* NSString+stringForRFC3339DateTimeString.h in Headers */,
+				4B3466AB88254715E21BB27FCA5BD73B /* NSString+stringValueOfXMLElement.h in Headers */,
+				BD7793BA59CFEA3440A710BFF30675EA /* NSString+stringWithEscapedXMLValue.h in Headers */,
+				574BE11D7D84A51EFDFD037078000B88 /* NSString+stringWithXMLTag.h in Headers */,
+				6F8CB2ACC2038C7A4A03867E9741A865 /* OpaqueDataType.h in Headers */,
+				25A81C941CCE0E7F89D88DDAD9BBEDEE /* OrderExType.h in Headers */,
+				06F7F499C89D4C81BB179C36AB2B897C /* OrderType.h in Headers */,
+				1B5A091831F8ECBF78D95B48E4BD69D2 /* PaymentMaskedType.h in Headers */,
+				75BBBC0012A95C272DE7A7628B23D7A0 /* PaymentType.h in Headers */,
+				3F8112D411679A8739F3FC9C9298C425 /* PermissionType.h in Headers */,
+				237F24A9011113173B9C6285219D0F6F /* Reachability.h in Headers */,
+				5E1DAEBC1DADED2291D7C71E15DA9FC5 /* SendCustomerTransactionReceiptRequest.h in Headers */,
+				A3BE30EA0A7ED924BD1AF758BF136199 /* SendCustomerTransactionReceiptResponse.h in Headers */,
+				5EFA5E635D5927F7BE3E421771C8391D /* SettingType.h in Headers */,
+				386D600B774FEACB08E9BBCC5AF37FD9 /* SplitTenderPayment.h in Headers */,
+				015C1776E1DB8D5BB48794ADB1FF0B69 /* SwiperDataType.h in Headers */,
+				606D6289DE67ECA15348F904C2309D6F /* TestAccountCaptchaRequest.h in Headers */,
+				A183D11A518C916A21C462E2068674A0 /* TestAccountCaptchaResponse.h in Headers */,
+				0CBDF108F24C23B1904A978F6AD0A6EB /* TestAccountCaptchaResponse.h in Headers */,
+				E23EE799DAFC4FF5067ACF1B291782DF /* TestAccountRegistrationRequest.h in Headers */,
+				778E2769264EB921DE1354C4C8D492DE /* TestAccountRegistrationRequest.h in Headers */,
+				B4CF278FDAEC7187945DE7AFCA98C0C0 /* TestAccountRegistrationResponse.h in Headers */,
+				ECC53BDBE840A03ECFFF6C16B0675DC0 /* TransactionDetailsType.h in Headers */,
+				ED6ABA0026D848A9AD4BC21683C8A6B8 /* TransactionRequestType.h in Headers */,
+				9173D75939E385626C46F0DA74FEF9D0 /* TransactionResponse.h in Headers */,
+				B2D78C444C90106572A6D95483781701 /* TransactionSummaryType.h in Headers */,
+				B64E5142AAC7777618020C1A91CE67F7 /* TransRetailInfoType.h in Headers */,
+				9535711889332E3419924F69FC13EE90 /* UIToolbar+BackgroundImage.h in Headers */,
+				CCD30768A34889014C719A8F83C3D8D0 /* UserField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C26A9D9761804867532D147CEA1D5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211D4EA06F5920376A069ACB55DF6006 /* AFHTTPRequestOperation.h in Headers */,
+				F4A1512E8C4D8C8194CBB276BF72A552 /* AFHTTPRequestOperationManager.h in Headers */,
+				DECD5915774351B8473476B041DD87D7 /* AFHTTPSessionManager.h in Headers */,
+				F4DCBA2A42A38C6E7A755182DA50DEA2 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				2B8269A87473D9F1259E9BD98E7588D3 /* AFNetworking.h in Headers */,
+				78449FCC01114171AA3CCB45C6666206 /* AFNetworkReachabilityManager.h in Headers */,
+				1CBDB47B210A0C2448C14A610BC6D4D6 /* AFSecurityPolicy.h in Headers */,
+				DB2E92A71137AD2E6993E8B0CE682C89 /* AFURLConnectionOperation.h in Headers */,
+				495F717651B12E6496C72D16BCC28C29 /* AFURLRequestSerialization.h in Headers */,
+				1E310D0CE3BE27EF253B6D822B0AEE5E /* AFURLResponseSerialization.h in Headers */,
+				5CF0E043147B69E77976A2CCADFF18CA /* AFURLSessionManager.h in Headers */,
+				A28588D1CCB5253CF80509F30A1AF1A5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				399AC825EE10F70364CE7B0AA89F466D /* UIAlertView+AFNetworking.h in Headers */,
+				3A5B54373A45916EC8DE74D060DE5503 /* UIButton+AFNetworking.h in Headers */,
+				903A0E1F82A29D285902CBB5A0828BE9 /* UIImage+AFNetworking.h in Headers */,
+				D4A65C2E29ACB340587FD41196176F8A /* UIImageView+AFNetworking.h in Headers */,
+				F4B03681047157E5C357E584147F5A46 /* UIKit+AFNetworking.h in Headers */,
+				C7ACDDE36465ACAF629FEC233B1BF172 /* UIProgressView+AFNetworking.h in Headers */,
+				C58268D5A4D2A786576E0EAA5B50FB93 /* UIRefreshControl+AFNetworking.h in Headers */,
+				A4EE8D1BEE38B87066BAA1B09A047356 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2304815B71CCDCDD8B7E12335B6625E7 /* authorizenet-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9656B8CAA7438EB1A48C4211F617D571 /* Build configuration list for PBXNativeTarget "authorizenet-sdk" */;
+			buildPhases = (
+				035624B5254ADDE8D897D32940CDB5A0 /* Sources */,
+				18F6C9573048CB602494C3037A0022F2 /* Frameworks */,
+				D1A4C2C4E65A801E590930E50B92C818 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "authorizenet-sdk";
+			productName = "authorizenet-sdk";
+			productReference = 609AFBFACA9AE027DEA2C36D163B505E /* libauthorizenet-sdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */,
+				F428C0A5C7AEF469CC7F9B7E6EC0003A /* Frameworks */,
+				E9C26A9D9761804867532D147CEA1D5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = B9A0490100BF43339FA16BEEA2298470 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F62328DF0987B383B59B4617B8419900 /* Pods-Deedio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDE0591D41C9D3DE69EB3B3EE9C1945 /* Build configuration list for PBXNativeTarget "Pods-Deedio" */;
+			buildPhases = (
+				562E5E284F09CA3066C6DEF69A2EC855 /* Sources */,
+				DA2302B860E29BAF0C375C9D6B6F9D48 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09E3F55EA42CF157784146B8EAB46A08 /* PBXTargetDependency */,
+				79248B4B6A494AF996C9458657544E51 /* PBXTargetDependency */,
+			);
+			name = "Pods-Deedio";
+			productName = "Pods-Deedio";
+			productReference = 165D23CA1959ACD1964B25A54B076DF1 /* libPods-Deedio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FA91D32C0FA1B750AC08AD98A3400A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */,
+				2304815B71CCDCDD8B7E12335B6625E7 /* authorizenet-sdk */,
+				F62328DF0987B383B59B4617B8419900 /* Pods-Deedio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035624B5254ADDE8D897D32940CDB5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E7DB2C612A201BEA010A358DFD820E /* ANetApiRequest.m in Sources */,
+				32CF51C755F65829BF55D5F57B4263D4 /* ANetApiResponse.m in Sources */,
+				116D3E9DA2333AF2766656399AC8E19F /* ANetSolution.m in Sources */,
+				32725B15A4DB08D404DF178FFC7B5769 /* AuthNet.m in Sources */,
+				569B03A68F92D1A42CEFF164951E23FF /* AuthNetMessage.m in Sources */,
+				F8CD17C4980D27CA7CCA6463FA0C4F3B /* AuthNetRequest.m in Sources */,
+				E5547702A151F285F820822D5773A6C1 /* AuthNetResponse.m in Sources */,
+				DADC3DA49484DB0276F897074C0E0020 /* authorizenet-sdk-dummy.m in Sources */,
+				87E12A0924BDFFABECCFAF1E3B0D7F5B /* BankAccountMaskedType.m in Sources */,
+				A1F0F8845E365C464436A59FDA367757 /* BankAccountType.m in Sources */,
+				09F34D1F2959C5B7934577150631873C /* BatchDetailsType.m in Sources */,
+				C7D8F717BDB9D5D64721D66A910C814B /* BatchStatisticType.m in Sources */,
+				EC848D1115CDED92B48FECA4BF724180 /* CCAuthenticationType.m in Sources */,
+				AAC7FF2716BC26465115BBB06051B8A3 /* CreateTransactionRequest.m in Sources */,
+				B7ECE3752F457A4CAFC74524F50FA8B4 /* CreateTransactionResponse.m in Sources */,
+				FE064BFC30F8E77F1A7B59CD38B47DE4 /* CreditCardMaskedType.m in Sources */,
+				D62A5273AFDE19F7A3CD31E51D5AC191 /* CreditCardTrackType.m in Sources */,
+				863058496D35AAE6201987D9762BC365 /* CreditCardType.m in Sources */,
+				AF3D3E8C00D06F64BA6987584371E946 /* CustomerAddressType.m in Sources */,
+				EE10E2AEA8EDDAC17BA4E063BF1628BA /* CustomerDataType.m in Sources */,
+				845001E16F4274F4776B0226A42DF0A1 /* Error.m in Sources */,
+				9FDEB239BAB32CFD1197674C2A88489B /* ExtendedAmountType.m in Sources */,
+				EF2F8445BF62CE49F413B5B7E3BCB2ED /* FDSFilterType.m in Sources */,
+				625366332D00C1ECF948A3B236F1F63C /* FingerPrintObjectType.m in Sources */,
+				1F8F4F04409E06B69E863B6CCC415C99 /* GDataXMLNode.m in Sources */,
+				2A6B253F7B90962FB63D33B0B43804DF /* GetBatchStatisticsRequest.m in Sources */,
+				2E0CB73A3A21F163F2DFAE7B0B09567E /* GetBatchStatisticsResponse.m in Sources */,
+				384058D59DE129D8A4F5E23094072F6D /* GetSettledBatchListRequest.m in Sources */,
+				0C9665120BB0C6F604FE10EF1FA61CE3 /* GetSettledBatchListResponse.m in Sources */,
+				838E4AEED22FEF8075D8473072F287D6 /* GetTransactionDetailsRequest.m in Sources */,
+				5075232A0F10CD2B358F80D70DBDC5AD /* GetTransactionDetailsResponse.m in Sources */,
+				08AC990EE62CBADD4AADE4B9F5BFC310 /* GetTransactionListRequest.m in Sources */,
+				CDAE3DB1F90A99C020184A91AEA87B52 /* GetTransactionListResponse.m in Sources */,
+				7E96AD2253E226ABCEF3C1CC193E0F76 /* GetUnsettledTransactionListRequest.m in Sources */,
+				382DDC007F298A0D4EA7A4E7298432A4 /* GetUnsettledTransactionListResponse.m in Sources */,
+				353065B69EEC688229BEB9716A3A46E2 /* LineItemType.m in Sources */,
+				A6F1F7F09E564ED924DF7EE7B6F71A8E /* LogoutRequest.m in Sources */,
+				46235378CDBECF1E9494B8A2C03C6C6D /* LogoutResponse.m in Sources */,
+				AF3F3FDB7AEE9190C4B17FA5B0406EB6 /* MerchantAccountType.m in Sources */,
+				060E4F4A2E81C2B5E6D98C43E5EE54F1 /* MerchantAuthenticationType.m in Sources */,
+				9F72A0056D03252102FB5A0437586690 /* MerchantContactType.m in Sources */,
+				A7BD8C5C54BEA67902269AED78058A84 /* Messages.m in Sources */,
+				D0045DFAB06240D3EB594F69A5BED41C /* MobileDeviceLoginRequest.m in Sources */,
+				9EEC14343183D029D88DA8CBCB9B330B /* MobileDeviceLoginResponse.m in Sources */,
+				FEF385C0CE0D951931AE6363126FEAD4 /* MobileDeviceRegistrationRequest.m in Sources */,
+				6AE53AFF6A5E851B552D582F99162D0F /* MobileDeviceRegistrationResponse.m in Sources */,
+				4A34977F90BF38EDA413958ADEA9BC51 /* MobileDeviceType.m in Sources */,
+				D723BACFE7F96F0D8927BF71991EADCD /* NameAndAddressType.m in Sources */,
+				8D5C7C529CBCB4534DBE34F6C569260E /* NSArray+PerformSelector.m in Sources */,
+				417B9D05421324474228A20AD5B10941 /* NSString+dataFromFilename.m in Sources */,
+				CB9ECE9547B598C0FBB913EE376506FB /* NSString+Hex.m in Sources */,
+				73E4D3079E25A3BEECE2FC4BD8E1307E /* NSString+HMAC_MD5.m in Sources */,
+				2431B3455EC7B80D6304E7D28DE64018 /* NSString+stringForRFC3339DateTimeString.m in Sources */,
+				90C21E4A66A1963A436F2BF3A429354E /* NSString+stringValueOfXMLElement.m in Sources */,
+				85AEC0DB9A0763264259AD48B458AAC4 /* NSString+stringWithEscapedXMLValue.m in Sources */,
+				33D82D7D07949AC99E5CACFFDE799B07 /* NSString+stringWithXMLTag.m in Sources */,
+				ACCDBA4D7343C7FF36B662EE26709CD0 /* OpaqueDataType.m in Sources */,
+				02E583002B706BE1743B8F8942AF4F56 /* OrderExType.m in Sources */,
+				5C1FB46FC67B40AB692A1300D9FB8B3F /* OrderType.m in Sources */,
+				2B8ABAC9702297957E236A9035C3EC8A /* PaymentMaskedType.m in Sources */,
+				707CE52DEC86DFAA7840E55C311D405E /* PaymentType.m in Sources */,
+				9125837F997C45CBAC3288EE16946424 /* PermissionType.m in Sources */,
+				EB0A86C97590C4C519FB40818675AB7D /* Reachability.m in Sources */,
+				CD35FCC438A8639A2C89228E857382A1 /* SendCustomerTransactionReceiptRequest.m in Sources */,
+				6B888A054D2B5901585E64918130471A /* SendCustomerTransactionReceiptResponse.m in Sources */,
+				6F8F73422A0275ABFA6BE1607B076CCA /* SettingType.m in Sources */,
+				076F362B4F8F636C603EA2C622A68F7B /* SplitTenderPayment.m in Sources */,
+				430EFCE7AE97879E8818D8285F36A50E /* SwiperDataType.m in Sources */,
+				E124FB77060061F6323134AEC3E2C177 /* TestAccountCaptchaRequest.m in Sources */,
+				2C8F5EBCF240964B1CFCE4C74507BF25 /* TestAccountCaptchaResponse.m in Sources */,
+				72CF207CBD503FB1CFD81CDC7BF50A21 /* TestAccountRegistrationRequest.m in Sources */,
+				0EAF0ADFBD585EAE2B185C2DDCA9E311 /* TransactionDetailsType.m in Sources */,
+				B3A036803978AFD9746D259BB8F1EEC2 /* TransactionRequestType.m in Sources */,
+				5F8A412F0F2B98B5996D0FEE91EAFF4D /* TransactionResponse.m in Sources */,
+				B97FE072BADA354533336D209B84B94A /* TransactionSummaryType.m in Sources */,
+				15EF9C20753F37EDFAD11D1542B5CA17 /* TransRetailInfoType.m in Sources */,
+				0B53B146ABE6183CBE55C527B1030224 /* UIToolbar+BackgroundImage.m in Sources */,
+				5AC5F0CE184B9E092D04C05F2051939F /* UserField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		562E5E284F09CA3066C6DEF69A2EC855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E93F9320F6479569185A893EB72936B /* Pods-Deedio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D44B0AD2D97CB2AA74B614C1E92EDCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876C2EF5FE318346CDCB4BFE25A9D5B2 /* AFHTTPRequestOperation.m in Sources */,
+				472A6BFCC6207D98F787649BDF44A1BE /* AFHTTPRequestOperationManager.m in Sources */,
+				2CF66E8669A348C421E93F2F67C6A61E /* AFHTTPSessionManager.m in Sources */,
+				B2B5DEC33B644F946C59F656AAAA8146 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B9DAA002CF3E0E8EBE9B6E9A7778CFD4 /* AFNetworking-dummy.m in Sources */,
+				BC7993B7436D4D7FADE6DD554DA52769 /* AFNetworkReachabilityManager.m in Sources */,
+				B12AD2EE044D6F7424F75F1506B516B2 /* AFSecurityPolicy.m in Sources */,
+				E6DD6ABB4FC13B60FA54C950FB6B262B /* AFURLConnectionOperation.m in Sources */,
+				3033C63AC334D346E9461D0942D8FB69 /* AFURLRequestSerialization.m in Sources */,
+				CAA0F8074B35A2F73890310EC4521A0D /* AFURLResponseSerialization.m in Sources */,
+				6CC4B79C1FEE1E7B3F2860ADA479D381 /* AFURLSessionManager.m in Sources */,
+				AE607E682415FAA160B33C7C13A8475B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9B47A1441B897F71505D8BE670B0940B /* UIAlertView+AFNetworking.m in Sources */,
+				99E82D6DC032555656E37AF2367B20D3 /* UIButton+AFNetworking.m in Sources */,
+				D070B784EFCA099C141EEAB69FBCC870 /* UIImageView+AFNetworking.m in Sources */,
+				FD6F966F458CEE40B07A2367BA3BC8EC /* UIProgressView+AFNetworking.m in Sources */,
+				854BC4449D8CAD0F2799B021D1914C3B /* UIRefreshControl+AFNetworking.m in Sources */,
+				9A04E971065AF4281E43947994A53D07 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E3F55EA42CF157784146B8EAB46A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 410B25DF16EA5C5B3E2698F74F9625FB /* AFNetworking */;
+			targetProxy = 61CFA457F0E81499A8300CA2038E8195 /* PBXContainerItemProxy */;
+		};
+		79248B4B6A494AF996C9458657544E51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "authorizenet-sdk";
+			target = 2304815B71CCDCDD8B7E12335B6625E7 /* authorizenet-sdk */;
+			targetProxy = ACC71FE7AAD83BA35EB324A7C1ED1FE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CEA14E1C5E3CDDE6152BEE0F33C2500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D934D66A63D54A6CF6630539E7F0C64 /* Pods-Deedio.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1238DBBCBD229E382DCAECF320D95C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28608BA3A839D4E4FA1305EA90089C3F /* Pods-Deedio.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58AC5C52B433FBACFD38A60DE6262F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF6101069FBF68AB73C9521D873C842 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		85BF4F10738911799478D7EFCE7BAACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA6FFE42A9B22A44374259C3508DEEB /* authorizenet-sdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/authorizenet-sdk/authorizenet-sdk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F192D4530660B2A322F1F9E33D055F5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF6101069FBF68AB73C9521D873C842 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3801B50535A7C5D16849EBAEACB773 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA6FFE42A9B22A44374259C3508DEEB /* authorizenet-sdk.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/authorizenet-sdk/authorizenet-sdk-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F6B64BF089D072A394601910D14E7B /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AC5C52B433FBACFD38A60DE6262F17 /* Debug */,
+				F192D4530660B2A322F1F9E33D055F5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDE0591D41C9D3DE69EB3B3EE9C1945 /* Build configuration list for PBXNativeTarget "Pods-Deedio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1238DBBCBD229E382DCAECF320D95C91 /* Debug */,
+				0CEA14E1C5E3CDDE6152BEE0F33C2500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9656B8CAA7438EB1A48C4211F617D571 /* Build configuration list for PBXNativeTarget "authorizenet-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3801B50535A7C5D16849EBAEACB773 /* Debug */,
+				85BF4F10738911799478D7EFCE7BAACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
